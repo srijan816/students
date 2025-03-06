@@ -113,6 +113,18 @@
           "tournament": "Seasons WSDC 2024",
           "date": "August 23-25, 2024",
           "type": "speaker",
+          "description": "Open 6th Best"
+        },
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "speaker",
+          "description": "U16 6th Best"
+        },
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "speaker",
           "description": "U14 OBS"
         },
         {
@@ -174,25 +186,6 @@
           "date": "February 24-25, 2024",
           "type": "team",
           "description": "Open Champion"
-        }
-      ]
-    },
-    {
-      "first_name": "Aiden",
-      "last_initial": "L.",
-      "school": "CIS",
-      "achievements": [
-        {
-          "tournament": "Seasons WSDC 2024",
-          "date": "August 23-25, 2024",
-          "type": "speaker",
-          "description": "Open 6th Best"
-        },
-        {
-          "tournament": "Seasons WSDC 2024",
-          "date": "August 23-25, 2024",
-          "type": "speaker",
-          "description": "U16 6th Best"
         }
       ]
     },
@@ -1423,6 +1416,18 @@
           "date": "August 23-25, 2024",
           "type": "team",
           "description": "Open Semifinals"
+        },
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "speaker",
+          "description": "Open 6th Best"
+        },
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "speaker",
+          "description": "U16 6th Best"
         },
         {
           "tournament": "Malaysia International World Schools Debating Championship 2024 ",
