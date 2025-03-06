@@ -1,52 +1,33 @@
-import { NextResponse } from 'next/server';
-import fs from 'fs';
-import * as XLSX from 'xlsx';
-import path from 'path';
+const fs = require('fs');
+const XLSX = require('xlsx');
+const path = require('path');
 
 /**
- * GET handler for retrieving student data from the Excel file
- * @returns {Promise<NextResponse>} JSON response with student data
+ * Generate students.json file from Excel data with fixed team achievement parsing
  */
-export async function GET() {
+async function generateJSON() {
   try {
     // Get the paths
     const excelFilePath = path.join(process.cwd(), 'data/debate_achievements.xlsx');
     const outputFilePath = path.join(process.cwd(), 'data/students.json');
     
+    console.log(`Reading Excel file: ${excelFilePath}`);
+    
     // Check if Excel file exists
     if (!fs.existsSync(excelFilePath)) {
-      console.error(`[Excel Converter] Excel file not found: ${excelFilePath}`);
+      console.error(`Excel file not found: ${excelFilePath}`);
       throw new Error('Excel file not found');
     }
     
-    // Log more details about the file
-    try {
-      const stats = fs.statSync(excelFilePath);
-      console.log(`[Excel Converter] File stats: size=${stats.size}, isFile=${stats.isFile()}, modified=${stats.mtime}`);
-    } catch (statsError) {
-      console.error('[Excel Converter] Error getting file stats:', statsError.message);
-    }
+    // Read the Excel file
+    const buffer = fs.readFileSync(excelFilePath);
+    const workbook = XLSX.read(buffer, { type: 'buffer' });
     
-    // Read the Excel file using a Buffer approach which is more reliable in Next.js API routes
-    console.log('[Excel Converter] Reading Excel file:', excelFilePath);
-    
-    // Declare workbook variable outside try block so it can be used later
-    let workbook;
-    
-    // Use try-catch specifically for the file reading operation
-    try {
-      const buffer = fs.readFileSync(excelFilePath);
-      console.log('[Excel Converter] Successfully read file, size:', buffer.length);
-      workbook = XLSX.read(buffer, { type: 'buffer' });
-      console.log('[Excel Converter] Successfully parsed workbook, sheets:', workbook.SheetNames);
-    } catch (readError) {
-      console.error('[Excel Converter] Error reading Excel file:', readError.message);
-      throw readError;
-    }
+    console.log(`Successfully parsed workbook, sheets: ${workbook.SheetNames}`);
     
     // Verify workbook has sheets
     if (!workbook.SheetNames || workbook.SheetNames.length === 0) {
-      console.error('[Excel Converter] Excel file has no sheets');
+      console.error('Excel file has no sheets');
       throw new Error('Excel file has no sheets');
     }
     
@@ -55,7 +36,7 @@ export async function GET() {
     
     // Verify worksheet has content
     if (!worksheet || !worksheet['!ref']) {
-      console.error('[Excel Converter] Worksheet is empty');
+      console.error('Worksheet is empty');
       throw new Error('Worksheet is empty');
     }
 
@@ -114,6 +95,8 @@ export async function GET() {
       const tournament = worksheet[tournamentCell].v;
       const date = worksheet[dateCell] ? worksheet[dateCell].v : '';
       
+      console.log(`\nProcessing tournament: ${tournament}, date: ${date}`);
+      
       // Process team achievements
       const teamAchievementsCell = `D${row}`;
       if (worksheet[teamAchievementsCell]) {
@@ -135,7 +118,7 @@ export async function GET() {
           // Check if this is a category line (contains a colon)
           if (line.includes(':')) {
             currentCategory = line.split(':')[0].trim();
-            console.log(`Found category: "${currentCategory}"`);
+            console.log(`\nFound category: "${currentCategory}"`);
             studentCount = 0;
             continue;
           }
@@ -167,17 +150,24 @@ export async function GET() {
         const speakerAwardsText = worksheet[speakerAwardsCell].v;
         const speakerAwards = speakerAwardsText.split('\n');
         
+        console.log(`Found ${speakerAwards.length} speaker awards`);
+        
         // Process each speaker award
         speakerAwards.forEach(award => {
           if (!award.trim()) return;
           
           // Extract the description and student
           const awardMatch = award.match(/(.+):\s+(.+)\s+\((.+)\)/);
-          if (!awardMatch) return;
+          if (!awardMatch) {
+            console.log(`Could not parse speaker award: ${award}`);
+            return;
+          }
           
           const description = awardMatch[1].trim();
           const studentName = awardMatch[2].trim();
           const school = awardMatch[3].trim();
+          
+          console.log(`Adding speaker award "${description}" to student "${studentName}" (${school})`);
           
           // Add student and achievement
           const student = addOrGetStudent(studentName, school);
@@ -203,36 +193,17 @@ export async function GET() {
       JSON.stringify(outputData, null, 2)
     );
 
-    console.log(`[Excel Converter] Successfully converted Excel to JSON. Total students: ${students.length}`);
+    console.log(`\nSuccessfully converted Excel to JSON. Total students: ${students.length}`);
+    console.log(`Output file saved to: ${outputFilePath}`);
     
-    // Return the data as JSON
-    return NextResponse.json(outputData);
+    return outputData;
   } catch (error) {
-    console.error('Error converting Excel to JSON:', error);
-    
-    // If there's an error, try to return the existing JSON file
-    try {
-      const jsonFilePath = path.join(process.cwd(), 'data/students.json');
-      if (!fs.existsSync(jsonFilePath)) {
-        console.error(`[Excel Converter] Fallback JSON file not found: ${jsonFilePath}`);
-        return NextResponse.json({ students: [], error: 'Failed to convert Excel and no fallback JSON found' }, { status: 500 });
-      }
-      
-      const jsonContent = fs.readFileSync(jsonFilePath, 'utf8');
-      if (!jsonContent || jsonContent.trim() === '') {
-        console.error('[Excel Converter] Fallback JSON file is empty');
-        return NextResponse.json({ students: [], error: 'Failed to convert Excel and fallback JSON is empty' }, { status: 500 });
-      }
-      
-      const jsonData = JSON.parse(jsonContent);
-      console.log(`[Excel Converter] Using fallback JSON with ${jsonData.students?.length || 0} students`);
-      return NextResponse.json(jsonData);
-    } catch (fallbackError) {
-      console.error('Error reading existing JSON:', fallbackError);
-      return NextResponse.json({ 
-        students: [], 
-        error: 'Failed to convert Excel and fallback JSON parse error: ' + fallbackError.message 
-      }, { status: 500 });
-    }
+    console.error('Error generating JSON:', error);
+    throw error;
   }
 }
+
+// Run the function
+generateJSON()
+  .then(() => console.log('Done!'))
+  .catch(err => console.error('Script failed:', err));

@@ -9,7 +9,7 @@
           "tournament": "South Asia WSDC",
           "date": "Jan 25-26, 2025",
           "type": "team",
-          "description": "Open Finalist"
+          "description": "Open Quarterfinalist"
         },
         {
           "tournament": "South Asia WSDC",
@@ -33,7 +33,7 @@
           "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
           "date": "January 20-21, 2024",
           "type": "team",
-          "description": "Open Quarterfinalists"
+          "description": "Open Octofinalists"
         }
       ]
     },
@@ -64,7 +64,7 @@
           "tournament": "Hong Kong Debate Open 2024",
           "date": "Dec 13-15, 2024",
           "type": "team",
-          "description": "Senior Finalists"
+          "description": "Junior Semifinalists"
         },
         {
           "tournament": "Hong Kong Debate Open 2024",
@@ -95,7 +95,7 @@
           "tournament": "Hong Kong Debate Open 2024",
           "date": "Dec 13-15, 2024",
           "type": "team",
-          "description": "Senior Finalists"
+          "description": "Junior Finalists"
         },
         {
           "tournament": "Hong Kong Debate Open 2024",
@@ -149,7 +149,7 @@
           "tournament": "Indo-Pacific British Parliamentary Open 2024",
           "date": "March 23-24, 2024",
           "type": "team",
-          "description": "High School Champion"
+          "description": "Open Semifinalists"
         },
         {
           "tournament": "Indo-Pacific British Parliamentary Open 2024",
@@ -235,7 +235,7 @@
           "tournament": "Indo-Pacific British Parliamentary Open 2024",
           "date": "March 23-24, 2024",
           "type": "team",
-          "description": "High School Champion"
+          "description": "Open Semifinalists"
         },
         {
           "tournament": "Indo-Pacific British Parliamentary Open 2024",
@@ -253,7 +253,7 @@
           "tournament": "Asian Online Debating Championship WSDC 2024",
           "date": "March 1-3, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Middle School Semifinalists"
         },
         {
           "tournament": "Asian Online Debating Championship WSDC 2024",
@@ -277,7 +277,7 @@
           "tournament": "9th Linkbate 2024",
           "date": "January 27-28, 2024",
           "type": "team",
-          "description": "Open Finalists"
+          "description": "Open Quarterfinalists"
         },
         {
           "tournament": "9th Linkbate 2024",
@@ -314,7 +314,7 @@
           "tournament": "Greater Bay Area WSDC 2024",
           "date": "June 8-10, 2024",
           "type": "team",
-          "description": "Senior Champion"
+          "description": "Junior Semifinalist"
         },
         {
           "tournament": "Greater Bay Area WSDC 2024",
@@ -333,7 +333,7 @@
           "tournament": "Asian Online Debating Championship WSDC 2025",
           "date": "Feb 7-9, 2025",
           "type": "team",
-          "description": "Open Octofinalist"
+          "description": "Middle School Quarterfinalist"
         }
       ]
     },
@@ -372,7 +372,7 @@
           "tournament": "Guangdong Debate Challenge 2024",
           "date": "July 13-14, 2024",
           "type": "team",
-          "description": "Schools Champion"
+          "description": "Open Quarterfinalist"
         },
         {
           "tournament": "Guangdong Debate Challenge 2024",
@@ -428,7 +428,7 @@
           "tournament": "HK Senior Schools Debating Championships 2024",
           "date": "Oct 12-13, 2024",
           "type": "team",
-          "description": "Champion"
+          "description": "Finalist"
         },
         {
           "tournament": "HK Senior Schools Debating Championships 2024",
@@ -440,7 +440,7 @@
           "tournament": "Gondwana WSDC 2024",
           "date": "Sept 13-15, 2024",
           "type": "team",
-          "description": "Open Semifinalist"
+          "description": "Open Quarterfinalist"
         },
         {
           "tournament": "Indo-Pacific Pro-Am 2024",
@@ -482,13 +482,13 @@
           "tournament": "Asian Online Debating Championship WSDC 2024",
           "date": "March 1-3, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Middle School Semifinalists"
         },
         {
           "tournament": "Novice World Schools Debating Championship 2024",
           "date": "February 24-25, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Open Finalist"
         },
         {
           "tournament": "Novice World Schools Debating Championship 2024",
@@ -568,7 +568,7 @@
           "tournament": "Hong Kong Debate Open 2024",
           "date": "Dec 13-15, 2024",
           "type": "team",
-          "description": "Senior Finalists"
+          "description": "Junior Semifinalists"
         },
         {
           "tournament": "Hong Kong Debate Open 2024",
@@ -586,13 +586,13 @@
           "tournament": "Seasons WSDC 2024",
           "date": "August 23-25, 2024",
           "type": "team",
-          "description": "Open Semifinals"
+          "description": "U14 Champion"
         },
         {
           "tournament": "Malaysia International World Schools Debating Championship 2024 ",
           "date": "April 27-28, 2024",
           "type": "team",
-          "description": "Open Octofinalists"
+          "description": "Under-16 Semifinalists"
         }
       ]
     },
@@ -630,7 +630,7 @@
           "tournament": "Indo-Pacific Autumn WSDC 2024",
           "date": "Oct 25-27, 2024",
           "type": "team",
-          "description": "Under-16 Finalist"
+          "description": "Under-14 Finalist"
         },
         {
           "tournament": "Transpacific WSDC 2024",
@@ -642,7 +642,7 @@
           "tournament": "Seasons WSDC 2024",
           "date": "August 23-25, 2024",
           "type": "team",
-          "description": "Open Semifinals"
+          "description": "U14 Champion"
         }
       ]
     },
@@ -655,7 +655,7 @@
           "tournament": "Hong Kong Debate Open 2024",
           "date": "Dec 13-15, 2024",
           "type": "team",
-          "description": "Senior Finalists"
+          "description": "Junior Finalists"
         },
         {
           "tournament": "Hong Kong Debate Open 2024",
@@ -680,7 +680,7 @@
           "tournament": "Everest International World Schools Debating Championship 2024",
           "date": "June 21-23, 2024",
           "type": "team",
-          "description": "Open Quarterfinalist"
+          "description": "Middle School Quarterfinalist"
         }
       ]
     },
@@ -706,13 +706,13 @@
           "tournament": "HK Senior Schools Debating Championships 2024",
           "date": "Oct 12-13, 2024",
           "type": "team",
-          "description": "Champion"
+          "description": "Pre-Quarterfinalist"
         },
         {
           "tournament": "Novice World Schools Debating Championship 2024",
           "date": "February 24-25, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Open Finalist"
         },
         {
           "tournament": "Novice World Schools Debating Championship 2024",
@@ -731,7 +731,7 @@
           "tournament": "Malaysia International World Schools Debating Championship 2024 ",
           "date": "April 27-28, 2024",
           "type": "team",
-          "description": "Open Octofinalists"
+          "description": "Under-16 Semifinalists"
         }
       ]
     },
@@ -744,7 +744,7 @@
           "tournament": "Asian Online Debating Championship WSDC 2025",
           "date": "Feb 7-9, 2025",
           "type": "team",
-          "description": "Open Octofinalist"
+          "description": "Middle School Quarterfinalist"
         }
       ]
     },
@@ -845,7 +845,7 @@
           "tournament": "Novice WSDC 2025",
           "date": "Feb 22-23, 2025",
           "type": "team",
-          "description": "Open Semifinalist"
+          "description": "U-16 Quarterfinalist"
         }
       ]
     },
@@ -864,7 +864,7 @@
           "tournament": "Indo-Pacific Autumn WSDC 2024",
           "date": "Oct 25-27, 2024",
           "type": "team",
-          "description": "Under-16 Finalist"
+          "description": "Under-14 Finalist"
         }
       ]
     },
@@ -890,7 +890,7 @@
           "tournament": "South Asia WSDC",
           "date": "Jan 25-26, 2025",
           "type": "team",
-          "description": "Open Finalist"
+          "description": "Open Quarterfinalist"
         },
         {
           "tournament": "Indian Debate Open 2024",
@@ -902,13 +902,13 @@
           "tournament": "Shanghai International Debate Open 2024",
           "date": "March 29-31, 2024",
           "type": "team",
-          "description": "High School Finals"
+          "description": "High School Octofinals"
         },
         {
           "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
           "date": "January 20-21, 2024",
           "type": "team",
-          "description": "Open Quarterfinalists"
+          "description": "Open Octofinalists"
         }
       ]
     },
@@ -921,13 +921,13 @@
           "tournament": "Everest International World Schools Debating Championship 2024",
           "date": "June 21-23, 2024",
           "type": "team",
-          "description": "Open Quarterfinalist"
+          "description": "Middle School Quarterfinalist"
         },
         {
           "tournament": "HK Junior Schools Debating Championship 2024",
           "date": "March 16-17, 2024",
           "type": "team",
-          "description": "Champion"
+          "description": "Quarterfinalists"
         }
       ]
     },
@@ -940,13 +940,13 @@
           "tournament": "HK Senior Schools Debating Championships 2024",
           "date": "Oct 12-13, 2024",
           "type": "team",
-          "description": "Champion"
+          "description": "Finalist"
         },
         {
           "tournament": "Gondwana WSDC 2024",
           "date": "Sept 13-15, 2024",
           "type": "team",
-          "description": "Open Semifinalist"
+          "description": "Open Quarterfinalist"
         },
         {
           "tournament": "Indo-Pacific Pro-Am 2024",
@@ -1001,7 +1001,7 @@
           "tournament": "Novice WSDC 2025",
           "date": "Feb 22-23, 2025",
           "type": "team",
-          "description": "Open Semifinalist"
+          "description": "U-16 Quarterfinalist"
         }
       ]
     },
@@ -1027,13 +1027,13 @@
           "tournament": "Novice WSDC 2025",
           "date": "Feb 22-23, 2025",
           "type": "team",
-          "description": "Open Semifinalist"
+          "description": "U-16 Semifinalist"
         },
         {
           "tournament": "Gondwana WSDC 2024",
           "date": "Sept 13-15, 2024",
           "type": "team",
-          "description": "Open Semifinalist"
+          "description": "U14 Champion"
         }
       ]
     },
@@ -1046,13 +1046,13 @@
           "tournament": "HK Senior Schools Debating Championships 2024",
           "date": "Oct 12-13, 2024",
           "type": "team",
-          "description": "Champion"
+          "description": "Finalist"
         },
         {
           "tournament": "Gondwana WSDC 2024",
           "date": "Sept 13-15, 2024",
           "type": "team",
-          "description": "Open Semifinalist"
+          "description": "Open Quarterfinalist"
         },
         {
           "tournament": "Gondwana WSDC 2024",
@@ -1082,7 +1082,7 @@
           "tournament": "HK Junior Schools Debating Championship 2024",
           "date": "March 16-17, 2024",
           "type": "team",
-          "description": "Champion"
+          "description": "Semifinalist"
         },
         {
           "tournament": "HK Junior Schools Debating Championship 2024",
@@ -1094,7 +1094,7 @@
           "tournament": "Novice World Schools Debating Championship 2024",
           "date": "February 24-25, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Open Finalist"
         },
         {
           "tournament": "Novice World Schools Debating Championship 2024",
@@ -1132,13 +1132,13 @@
           "tournament": "Novice WSDC 2025",
           "date": "Feb 22-23, 2025",
           "type": "team",
-          "description": "Open Semifinalist"
+          "description": "U-16 Semifinalist"
         },
         {
           "tournament": "South Asia WSDC",
           "date": "Jan 25-26, 2025",
           "type": "team",
-          "description": "Open Finalist"
+          "description": "U-16 Champion"
         }
       ]
     },
@@ -1157,7 +1157,7 @@
           "tournament": "Hong Kong Debate Open 2024",
           "date": "Dec 13-15, 2024",
           "type": "team",
-          "description": "Senior Finalists"
+          "description": "Junior Finalists"
         }
       ]
     },
@@ -1182,7 +1182,7 @@
           "tournament": "Seasons WSDC 2024",
           "date": "August 23-25, 2024",
           "type": "team",
-          "description": "Open Semifinals"
+          "description": "U14 Champion"
         }
       ]
     },
@@ -1195,7 +1195,7 @@
           "tournament": "Novice WSDC 2025",
           "date": "Feb 22-23, 2025",
           "type": "team",
-          "description": "Open Semifinalist"
+          "description": "U-16 Quarterfinalist"
         }
       ]
     },
@@ -1220,7 +1220,7 @@
           "tournament": "Hong Kong Debate Open 2024",
           "date": "Dec 13-15, 2024",
           "type": "team",
-          "description": "Senior Finalists"
+          "description": "Junior Finalists"
         }
       ]
     },
@@ -1239,7 +1239,7 @@
           "tournament": "Hong Kong Debate Open 2024",
           "date": "Dec 13-15, 2024",
           "type": "team",
-          "description": "Senior Finalists"
+          "description": "Junior Semifinalists"
         },
         {
           "tournament": "Hong Kong Debate Open 2024",
@@ -1258,7 +1258,7 @@
           "tournament": "Indo-Pacific British Parliamentary Open 2024",
           "date": "March 23-24, 2024",
           "type": "team",
-          "description": "High School Champion"
+          "description": "High School Semifinalists"
         }
       ]
     },
@@ -1271,7 +1271,7 @@
           "tournament": "South Asia WSDC",
           "date": "Jan 25-26, 2025",
           "type": "team",
-          "description": "Open Finalist"
+          "description": "Open Quarterfinalist"
         },
         {
           "tournament": "Asian Online Debating Championship WSDC 2024",
@@ -1290,13 +1290,13 @@
           "tournament": "South Asia WSDC",
           "date": "Jan 25-26, 2025",
           "type": "team",
-          "description": "Open Finalist"
+          "description": "U-16 Champion"
         },
         {
           "tournament": "Everest International World Schools Debating Championship 2024",
           "date": "June 21-23, 2024",
           "type": "team",
-          "description": "Open Quarterfinalist"
+          "description": "Middle School Quarterfinalist"
         }
       ]
     },
@@ -1309,7 +1309,7 @@
           "tournament": "HK Senior Schools Debating Championships 2024",
           "date": "Oct 12-13, 2024",
           "type": "team",
-          "description": "Champion"
+          "description": "Semifinalist"
         },
         {
           "tournament": "HK Senior Schools Debating Championships 2024",
@@ -1321,25 +1321,25 @@
           "tournament": "Shanghai International Debate Open 2024",
           "date": "March 29-31, 2024",
           "type": "team",
-          "description": "High School Finals"
+          "description": "High School Octofinals"
         },
         {
           "tournament": "Cambridge Asia British Parliamentary 2024",
           "date": "February 17-18, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Junior Finalists"
         },
         {
           "tournament": "9th Linkbate 2024",
           "date": "January 27-28, 2024",
           "type": "team",
-          "description": "Open Finalists"
+          "description": "Open Quarterfinalists"
         },
         {
           "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
           "date": "January 20-21, 2024",
           "type": "team",
-          "description": "Open Quarterfinalists"
+          "description": "Open Octofinalists"
         }
       ]
     },
@@ -1358,7 +1358,7 @@
           "tournament": "Indo-Pacific British Parliamentary Open 2024",
           "date": "March 23-24, 2024",
           "type": "team",
-          "description": "High School Champion"
+          "description": "High School Semifinalists"
         },
         {
           "tournament": "Indo-Pacific British Parliamentary Open 2024",
@@ -1370,7 +1370,7 @@
           "tournament": "Cambridge Asia British Parliamentary 2024",
           "date": "February 17-18, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Open Quarterfinalists"
         }
       ]
     },
@@ -1396,7 +1396,7 @@
           "tournament": "Novice WSDC 2025",
           "date": "Feb 22-23, 2025",
           "type": "team",
-          "description": "Open Semifinalist"
+          "description": "U-16 Semifinalist"
         }
       ]
     },
@@ -1441,7 +1441,7 @@
           "tournament": "Asia Schools Open - Asian Parliamentary (Winter Edition) 2025",
           "date": "Jan 18-19, 2025",
           "type": "team",
-          "description": "15-and-Under Champion"
+          "description": "12-and-Under Champion"
         },
         {
           "tournament": "Asia Schools Open - Asian Parliamentary (Winter Edition) 2025",
@@ -1460,7 +1460,7 @@
           "tournament": "Novice WSDC 2025",
           "date": "Feb 22-23, 2025",
           "type": "team",
-          "description": "Open Semifinalist"
+          "description": "U-16 Quarterfinalist"
         }
       ]
     },
@@ -1498,7 +1498,7 @@
           "tournament": "9th Linkbate 2024",
           "date": "January 27-28, 2024",
           "type": "team",
-          "description": "Open Finalists"
+          "description": "High School Semifinalists"
         }
       ]
     },
@@ -1511,7 +1511,7 @@
           "tournament": "HK Senior Schools Debating Championships 2024",
           "date": "Oct 12-13, 2024",
           "type": "team",
-          "description": "Champion"
+          "description": "Quarterfinalist"
         },
         {
           "tournament": "HK Senior Schools Debating Championships 2024",
@@ -1530,7 +1530,7 @@
           "tournament": "Novice World Schools Debating Championship 2024",
           "date": "February 24-25, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Under-16 Quarterfinalists"
         }
       ]
     },
@@ -1549,7 +1549,7 @@
           "tournament": "Doxbridge WSDC 2024",
           "date": "July 5-7, 2024",
           "type": "team",
-          "description": "Silver Grand Finalist"
+          "description": "Silver Semifinalist"
         }
       ]
     },
@@ -1649,7 +1649,7 @@
           "tournament": "Doxbridge WSDC 2024",
           "date": "July 5-7, 2024",
           "type": "team",
-          "description": "Silver Grand Finalist"
+          "description": "Silver Semifinalist"
         },
         {
           "tournament": "Greater Bay Area WSDC 2024",
@@ -1673,13 +1673,13 @@
           "tournament": "Shanghai International Debate Open 2024",
           "date": "March 29-31, 2024",
           "type": "team",
-          "description": "High School Finals"
+          "description": "High School Octofinals"
         },
         {
           "tournament": "Indo-Pacific British Parliamentary Open 2024",
           "date": "March 23-24, 2024",
           "type": "team",
-          "description": "High School Champion"
+          "description": "High School Semifinalists"
         },
         {
           "tournament": "Indo-Pacific British Parliamentary Open 2024",
@@ -1691,13 +1691,13 @@
           "tournament": "Cambridge Asia British Parliamentary 2024",
           "date": "February 17-18, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Junior Runner-Ups"
         },
         {
           "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
           "date": "January 20-21, 2024",
           "type": "team",
-          "description": "Open Quarterfinalists"
+          "description": "Open Octofinalists"
         }
       ]
     },
@@ -1729,7 +1729,7 @@
           "tournament": "9th Linkbate 2024",
           "date": "January 27-28, 2024",
           "type": "team",
-          "description": "Open Finalists"
+          "description": "High School Semifinalists"
         }
       ]
     },
@@ -1766,51 +1766,25 @@
           "tournament": "Doxbridge WSDC 2024",
           "date": "July 5-7, 2024",
           "type": "team",
-          "description": "Silver Grand Finalist"
+          "description": "Silver Semifinalist"
         },
         {
           "tournament": "Shanghai International Debate Open 2024",
           "date": "March 29-31, 2024",
           "type": "team",
-          "description": "High School Finals"
+          "description": "High School Octofinals"
         },
         {
           "tournament": "Cambridge Asia British Parliamentary 2024",
           "date": "February 17-18, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Open Quarterfinalists"
         },
         {
           "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
           "date": "January 20-21, 2024",
           "type": "team",
           "description": "Open Quarterfinalists"
-        }
-      ]
-    },
-    {
-      "first_name": "Novice",
-      "last_initial": "Z.",
-      "school": "HKIS",
-      "achievements": [
-        {
-          "tournament": "Hong Kong Debate Open 2024",
-          "date": "Dec 13-15, 2024",
-          "type": "team",
-          "description": "Senior Finalists"
-        }
-      ]
-    },
-    {
-      "first_name": "Novice",
-      "last_initial": "S.",
-      "school": "CIS",
-      "achievements": [
-        {
-          "tournament": "Hong Kong Debate Open 2024",
-          "date": "Dec 13-15, 2024",
-          "type": "team",
-          "description": "Senior Finalists"
         }
       ]
     },
@@ -1835,7 +1809,7 @@
           "tournament": "Everest International World Schools Debating Championship 2024",
           "date": "June 21-23, 2024",
           "type": "team",
-          "description": "Open Quarterfinalist"
+          "description": "Middle School Champion"
         },
         {
           "tournament": "Everest International World Schools Debating Championship 2024",
@@ -1853,7 +1827,7 @@
           "tournament": "Greater Bay Area WSDC 2024",
           "date": "June 8-10, 2024",
           "type": "team",
-          "description": "Senior Champion"
+          "description": "Junior Semifinalist"
         },
         {
           "tournament": "Greater Bay Area WSDC 2024",
@@ -1883,19 +1857,19 @@
           "tournament": "Shanghai International Debate Open 2024",
           "date": "March 29-31, 2024",
           "type": "team",
-          "description": "High School Finals"
+          "description": "High School Quarterfinals"
         },
         {
           "tournament": "Indo-Pacific British Parliamentary Open 2024",
           "date": "March 23-24, 2024",
           "type": "team",
-          "description": "High School Champion"
+          "description": "High School Semifinalists"
         },
         {
           "tournament": "Asian Online Debating Championship WSDC 2024",
           "date": "March 1-3, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Middle School Semifinalists"
         },
         {
           "tournament": "Asian Online Debating Championship WSDC 2024",
@@ -1927,7 +1901,7 @@
           "tournament": "Asian Online Debating Championship WSDC 2025",
           "date": "Feb 7-9, 2025",
           "type": "team",
-          "description": "Open Octofinalist"
+          "description": "Middle School Quarterfinalist"
         }
       ]
     },
@@ -1952,7 +1926,7 @@
           "tournament": "9th Linkbate 2024",
           "date": "January 27-28, 2024",
           "type": "team",
-          "description": "Open Finalists"
+          "description": "Open Quarterfinalists"
         },
         {
           "tournament": "9th Linkbate 2024",
@@ -2071,7 +2045,7 @@
           "tournament": "Gondwana WSDC 2024",
           "date": "Sept 13-15, 2024",
           "type": "team",
-          "description": "Open Semifinalist"
+          "description": "U14 Champion"
         },
         {
           "tournament": "Gondwana WSDC 2024",
@@ -2152,7 +2126,7 @@
           "tournament": "Seasons WSDC 2024",
           "date": "August 23-25, 2024",
           "type": "team",
-          "description": "Open Semifinals"
+          "description": "U14 Champion"
         }
       ]
     },
@@ -2165,7 +2139,7 @@
           "tournament": "Indo-Pacific Autumn WSDC 2024",
           "date": "Oct 25-27, 2024",
           "type": "team",
-          "description": "Under-16 Finalist"
+          "description": "Under-14 Finalist"
         }
       ]
     },
@@ -2204,7 +2178,7 @@
           "tournament": "South Asia WSDC",
           "date": "Jan 25-26, 2025",
           "type": "team",
-          "description": "Open Finalist"
+          "description": "Open Quarterfinalist"
         },
         {
           "tournament": "South Asia WSDC",
@@ -2270,7 +2244,7 @@
           "tournament": "Shanghai International Debate Open 2024",
           "date": "March 29-31, 2024",
           "type": "team",
-          "description": "High School Finals"
+          "description": "High School Octofinals"
         },
         {
           "tournament": "Asian Online Debating Championship WSDC 2024",
@@ -2288,13 +2262,13 @@
           "tournament": "Cambridge Asia British Parliamentary 2024",
           "date": "February 17-18, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Junior Runner-Ups"
         },
         {
           "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
           "date": "January 20-21, 2024",
           "type": "team",
-          "description": "Open Quarterfinalists"
+          "description": "Open Octofinalists"
         }
       ]
     },
@@ -2307,7 +2281,7 @@
           "tournament": "Novice WSDC 2025",
           "date": "Feb 22-23, 2025",
           "type": "team",
-          "description": "Open Semifinalist"
+          "description": "U-16 Quarterfinalist"
         }
       ]
     },
@@ -2344,7 +2318,7 @@
           "tournament": "Novice World Schools Debating Championship 2024",
           "date": "February 24-25, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Under-16 Quarterfinalists"
         }
       ]
     },
@@ -2357,7 +2331,7 @@
           "tournament": "Malaysia International World Schools Debating Championship 2024 ",
           "date": "April 27-28, 2024",
           "type": "team",
-          "description": "Open Octofinalists"
+          "description": "Under-16 Semifinalists"
         }
       ]
     },
@@ -2370,7 +2344,7 @@
           "tournament": "HK Junior Schools Debating Championship 2024",
           "date": "March 16-17, 2024",
           "type": "team",
-          "description": "Champion"
+          "description": "Quarterfinalists"
         }
       ]
     },
@@ -2402,7 +2376,7 @@
           "tournament": "South Asia WSDC",
           "date": "Jan 25-26, 2025",
           "type": "team",
-          "description": "Open Finalist"
+          "description": "U-16 Champion"
         },
         {
           "tournament": "South Asia WSDC",
@@ -2493,7 +2467,7 @@
           "tournament": "Greater Bay Area WSDC 2024",
           "date": "June 8-10, 2024",
           "type": "team",
-          "description": "Senior Champion"
+          "description": "Junior Semifinalist"
         },
         {
           "tournament": "Greater Bay Area WSDC 2024",
@@ -2505,13 +2479,13 @@
           "tournament": "Shanghai International Debate Open 2024",
           "date": "March 29-31, 2024",
           "type": "team",
-          "description": "High School Finals"
+          "description": "High School Quarterfinals"
         },
         {
           "tournament": "Asian Online Debating Championship WSDC 2024",
           "date": "March 1-3, 2024",
           "type": "team",
-          "description": "Open Champion"
+          "description": "Middle School Semifinalists"
         },
         {
           "tournament": "Asian Online Debating Championship WSDC 2024",
@@ -2530,7 +2504,7 @@
           "tournament": "South Asia WSDC",
           "date": "Jan 25-26, 2025",
           "type": "team",
-          "description": "Open Finalist"
+          "description": "U-16 Champion"
         }
       ]
     },
@@ -2573,7 +2547,7 @@
           "tournament": "Shanghai International Debate Open 2024",
           "date": "March 29-31, 2024",
           "type": "team",
-          "description": "High School Finals"
+          "description": "High School Octofinals"
         },
         {
           "tournament": "HK Junior Schools Debating Championship 2024",
