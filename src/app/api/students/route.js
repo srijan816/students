@@ -196,17 +196,52 @@ export async function GET() {
         speakerAwards.forEach(award => {
           if (!award.trim()) return;
           
-          // Extract the description and student
-          const awardMatch = award.match(/(.+):\s+(.+)\s+\((.+)\)/);
-          if (!awardMatch) return;
+          // First, extract the award description
+          const parts = award.split(':');
+          if (parts.length < 2) return;
           
-          const description = awardMatch[1].trim();
-          const studentName = awardMatch[2].trim();
-          const school = awardMatch[3].trim();
+          const description = parts[0].trim();
+          const studentPart = parts.slice(1).join(':').trim();
           
-          // Add student and achievement
-          const student = addOrGetStudent(studentName, school);
-          addAchievement(student, tournament, date, description, 'speaker');
+          // Check if the student part contains multiple students with &
+          if (studentPart.includes('&')) {
+            // Split by & to get individual students
+            const studentEntries = studentPart.split('&').map(entry => entry.trim());
+            
+            // Process each student
+            studentEntries.forEach(entry => {
+              const studentMatch = entry.match(/(.+)\s+\((.+)\)/);
+              if (!studentMatch) {
+                console.log(`Could not parse student entry in speaker award: ${entry}`);
+                return;
+              }
+              
+              const studentName = studentMatch[1].trim();
+              const school = studentMatch[2].trim();
+              
+              console.log(`Adding student "${studentName}" (${school}) with speaker achievement: "${description}"`);
+              
+              // Add student and achievement
+              const student = addOrGetStudent(studentName, school);
+              addAchievement(student, tournament, date, description, 'speaker');
+            });
+          } else {
+            // Regular single student format
+            const studentMatch = studentPart.match(/(.+)\s+\((.+)\)/);
+            if (!studentMatch) {
+              console.log(`Could not parse student in speaker award: ${studentPart}`);
+              return;
+            }
+            
+            const studentName = studentMatch[1].trim();
+            const school = studentMatch[2].trim();
+            
+            console.log(`Adding student "${studentName}" (${school}) with speaker achievement: "${description}"`);
+            
+            // Add student and achievement
+            const student = addOrGetStudent(studentName, school);
+            addAchievement(student, tournament, date, description, 'speaker');
+          }
         });
       }
     }
