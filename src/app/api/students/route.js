@@ -140,22 +140,47 @@ export async function GET() {
             continue;
           }
           
-          // This should be a student line
-          const studentMatch = line.match(/(.+)\s+\((.+)\)/);
-          if (!studentMatch) {
-            console.log(`Could not parse line as student: ${line}`);
-            continue;
+          // This could be a student line or a line with multiple students (using &)
+          // Check if the line contains multiple students (with &)
+          if (line.includes('&')) {
+            // Split by & to get each student
+            const studentEntries = line.split('&').map(entry => entry.trim());
+            
+            for (const entry of studentEntries) {
+              const studentMatch = entry.match(/(.+)\s+\((.+)\)/);
+              if (!studentMatch) {
+                console.log(`Could not parse student entry: ${entry}`);
+                continue;
+              }
+              
+              const studentName = studentMatch[1].trim();
+              const school = studentMatch[2].trim();
+              
+              console.log(`Adding student "${studentName}" (${school}) with achievement: "${currentCategory}"`);
+              
+              // Add student and achievement
+              const student = addOrGetStudent(studentName, school);
+              addAchievement(student, tournament, date, currentCategory, 'team');
+              studentCount++;
+            }
+          } else {
+            // This is a single student line
+            const studentMatch = line.match(/(.+)\s+\((.+)\)/);
+            if (!studentMatch) {
+              console.log(`Could not parse line as student: ${line}`);
+              continue;
+            }
+            
+            const studentName = studentMatch[1].trim();
+            const school = studentMatch[2].trim();
+            
+            console.log(`Adding student "${studentName}" (${school}) with achievement: "${currentCategory}"`);
+            
+            // Add student and achievement
+            const student = addOrGetStudent(studentName, school);
+            addAchievement(student, tournament, date, currentCategory, 'team');
+            studentCount++;
           }
-          
-          const studentName = studentMatch[1].trim();
-          const school = studentMatch[2].trim();
-          
-          console.log(`Adding student "${studentName}" (${school}) with achievement: "${currentCategory}"`);
-          
-          // Add student and achievement
-          const student = addOrGetStudent(studentName, school);
-          addAchievement(student, tournament, date, currentCategory, 'team');
-          studentCount++;
         }
         
         console.log(`Added ${studentCount} students to category "${currentCategory}"`);

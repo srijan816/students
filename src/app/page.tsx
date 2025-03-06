@@ -139,15 +139,58 @@ export default function Home() {
                             if (!a.date || !b.date) return 0;
                             return a.date < b.date ? 1 : -1;
                           });
+                        
+                        // Group achievements by tournament name
+                        const tournamentGroups: Record<string, Achievement[]> = {};
+                        
+                        speakerAchievements.forEach(achievement => {
+                          const tournamentKey = `${achievement.tournament}|${achievement.date}`;
+                          if (!tournamentGroups[tournamentKey]) {
+                            tournamentGroups[tournamentKey] = [];
+                          }
+                          tournamentGroups[tournamentKey].push(achievement);
+                        });
+                        
+                        // Convert groups to array for rendering
+                        const groupedRows = Object.entries(tournamentGroups).map(([key, achievements], groupIndex) => {
+                          const [tournament, date] = key.split('|');
                           
-                        // Map each achievement to a table row
-                        return speakerAchievements.map((achievement, index) => (
-                          <tr key={`speaker-${index}`} className={index % 2 === 0 ? 'bg-white dark:bg-gray-800' : 'bg-gray-50 dark:bg-gray-700'}>
-                            <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">{achievement.tournament}</td>
-                            <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">{achievement.date}</td>
-                            <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">{achievement.description}</td>
-                          </tr>
-                        ));
+                          return (
+                            <React.Fragment key={`speaker-group-${groupIndex}`}>
+                              {achievements.map((achievement, achievementIndex) => {
+                                const isFirstInGroup = achievementIndex === 0;
+                                return (
+                                  <tr 
+                                    key={`speaker-${groupIndex}-${achievementIndex}`} 
+                                    className={groupIndex % 2 === 0 ? 'bg-white dark:bg-gray-800' : 'bg-gray-50 dark:bg-gray-700'}
+                                  >
+                                    {isFirstInGroup ? (
+                                      <>
+                                        <td 
+                                          className="border border-gray-300 dark:border-gray-600 px-4 py-2" 
+                                          rowSpan={achievements.length}
+                                        >
+                                          {tournament}
+                                        </td>
+                                        <td 
+                                          className="border border-gray-300 dark:border-gray-600 px-4 py-2" 
+                                          rowSpan={achievements.length}
+                                        >
+                                          {date}
+                                        </td>
+                                      </>
+                                    ) : null}
+                                    <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">
+                                      {achievement.description}
+                                    </td>
+                                  </tr>
+                                );
+                              })}
+                            </React.Fragment>
+                          );
+                        });
+                        
+                        return groupedRows;
                       })()
                       }
                     </tbody>
@@ -176,15 +219,58 @@ export default function Home() {
                             if (!a.date || !b.date) return 0;
                             return a.date < b.date ? 1 : -1;
                           });
+                        
+                        // Group achievements by tournament name
+                        const tournamentGroups: Record<string, Achievement[]> = {};
+                        
+                        teamAchievements.forEach(achievement => {
+                          const tournamentKey = `${achievement.tournament}|${achievement.date}`;
+                          if (!tournamentGroups[tournamentKey]) {
+                            tournamentGroups[tournamentKey] = [];
+                          }
+                          tournamentGroups[tournamentKey].push(achievement);
+                        });
+                        
+                        // Convert groups to array for rendering
+                        const groupedRows = Object.entries(tournamentGroups).map(([key, achievements], groupIndex) => {
+                          const [tournament, date] = key.split('|');
                           
-                        // Map each achievement to a table row
-                        return teamAchievements.map((achievement, index) => (
-                          <tr key={`team-${index}`} className={index % 2 === 0 ? 'bg-white dark:bg-gray-800' : 'bg-gray-50 dark:bg-gray-700'}>
-                            <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">{achievement.tournament}</td>
-                            <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">{achievement.date}</td>
-                            <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">{achievement.description}</td>
-                          </tr>
-                        ));
+                          return (
+                            <React.Fragment key={`team-group-${groupIndex}`}>
+                              {achievements.map((achievement, achievementIndex) => {
+                                const isFirstInGroup = achievementIndex === 0;
+                                return (
+                                  <tr 
+                                    key={`team-${groupIndex}-${achievementIndex}`} 
+                                    className={groupIndex % 2 === 0 ? 'bg-white dark:bg-gray-800' : 'bg-gray-50 dark:bg-gray-700'}
+                                  >
+                                    {isFirstInGroup ? (
+                                      <>
+                                        <td 
+                                          className="border border-gray-300 dark:border-gray-600 px-4 py-2" 
+                                          rowSpan={achievements.length}
+                                        >
+                                          {tournament}
+                                        </td>
+                                        <td 
+                                          className="border border-gray-300 dark:border-gray-600 px-4 py-2" 
+                                          rowSpan={achievements.length}
+                                        >
+                                          {date}
+                                        </td>
+                                      </>
+                                    ) : null}
+                                    <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">
+                                      {achievement.description}
+                                    </td>
+                                  </tr>
+                                );
+                              })}
+                            </React.Fragment>
+                          );
+                        });
+                        
+                        return groupedRows;
                       })()
                       }
                     </tbody>
