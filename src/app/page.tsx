@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-import type { StylesConfig, GroupBase } from 'react-select';
+import type { StylesConfig, GroupBase, ActionMeta } from 'react-select';
 
 // Import the JSON directly for initial render
 import studentsData from '../../data/students.json';
@@ -84,9 +84,13 @@ export default function Home() {
     }),
   };
 
-  // Handler for select change with explicit typing
-  const handleSelectChange = (selected: SelectOption | null) => {
-    setSelectedStudent(selected ? selected.value : null);
+  // Handler for select change with correct signature matching React Select's expected types
+  const handleSelectChange = (
+    newValue: unknown, 
+    actionMeta: ActionMeta<unknown>
+  ) => {
+    const selectedOption = newValue as SelectOption | null;
+    setSelectedStudent(selectedOption ? selectedOption.value : null);
   };
 
   return (
