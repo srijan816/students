@@ -9,9 +9,24 @@ import studentsData from '../../data/students.json';
 // Dynamically import react-select to avoid server-side rendering issues
 const Select = dynamic(() => import('react-select'), { ssr: false });
 
+// Define types for our student data
+type Achievement = {
+  tournament: string;
+  date: string;
+  type: string;
+  description: string;
+};
+
+type Student = {
+  first_name: string;
+  last_initial: string;
+  school: string;
+  achievements: Achievement[];
+};
+
 export default function Home() {
-  const [selectedStudent, setSelectedStudent] = useState(null);
-  const [students, setStudents] = useState([]);
+  const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
+  const [students, setStudents] = useState<Student[]>([]);
   const [loading, setLoading] = useState(true);
 
   // Fetch the latest student data on component mount
@@ -41,7 +56,13 @@ export default function Home() {
     loadStudents();
   }, []);
 
-  const options = students.map((student) => ({
+  // Define select option type
+  type SelectOption = {
+    value: Student;
+    label: string;
+  };
+
+  const options: SelectOption[] = students.map((student) => ({
     value: student,
     label: `${student.first_name} ${student.last_initial} (${student.school})`,
   }));
@@ -71,7 +92,7 @@ export default function Home() {
         <div className="mb-10">
           <Select
             options={options}
-            onChange={(option) => setSelectedStudent(option ? option.value : null)}
+            onChange={(option: SelectOption | null) => setSelectedStudent(option ? option.value : null)}
             placeholder="Search for a student..."
             isClearable
             styles={customStyles}
