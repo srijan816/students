@@ -2,12 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
+import type { StylesConfig, GroupBase } from 'react-select';
 
 // Import the JSON directly for initial render
 import studentsData from '../../data/students.json';
-
-// Import types for react-select
-import type { StylesConfig } from 'react-select';
 
 // Dynamically import react-select to avoid server-side rendering issues
 const Select = dynamic(() => import('react-select'), { ssr: false });
@@ -26,6 +24,12 @@ type Student = {
   school: string;
   achievements: Achievement[];
 };
+
+// Define select option type
+interface SelectOption {
+  value: Student;
+  label: string;
+}
 
 export default function Home() {
   const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
@@ -59,31 +63,30 @@ export default function Home() {
     loadStudents();
   }, []);
 
-  // Define select option type
-  type SelectOption = {
-    value: Student;
-    label: string;
-  };
-
   const options: SelectOption[] = students.map((student) => ({
     value: student,
     label: `${student.first_name} ${student.last_initial} (${student.school})`,
   }));
 
-  // Define types for the Select component styles
-  const customStyles: StylesConfig<SelectOption, false> = {
-    control: (baseStyles) => ({
-      ...baseStyles,
+  // Define types for the Select component styles with explicit typing
+  const customStyles: StylesConfig<SelectOption, false, GroupBase<SelectOption>> = {
+    control: (styles) => ({
+      ...styles,
       width: '100%',
       maxWidth: '400px',
       margin: '0 auto',
     }),
-    option: (baseStyles, { isSelected, isFocused }) => ({
-      ...baseStyles,
+    option: (styles, { isSelected, isFocused }) => ({
+      ...styles,
       cursor: 'pointer',
       backgroundColor: isSelected ? '#3b82f6' : isFocused ? '#dbeafe' : 'white',
       color: isSelected ? 'white' : 'black',
     }),
+  };
+
+  // Handler for select change with explicit typing
+  const handleSelectChange = (selected: SelectOption | null) => {
+    setSelectedStudent(selected ? selected.value : null);
   };
 
   return (
@@ -98,7 +101,7 @@ export default function Home() {
         <div className="mb-10">
           <Select
             options={options}
-            onChange={(option) => setSelectedStudent(option ? option.value : null)}
+            onChange={handleSelectChange}
             placeholder="Search for a student..."
             isClearable
             styles={customStyles}
