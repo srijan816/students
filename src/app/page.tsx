@@ -67,16 +67,19 @@ export default function Home() {
     label: `${student.first_name} ${student.last_initial} (${student.school})`,
   }));
 
+  // Define types for the Select component styles
   const customStyles = {
-    control: (provided) => ({
+    control: (provided: Record<string, any>) => ({
       ...provided,
       width: '100%',
       maxWidth: '400px',
       margin: '0 auto',
     }),
-    option: (provided) => ({
+    option: (provided: Record<string, any>, state: { isSelected: boolean; isFocused: boolean }) => ({
       ...provided,
       cursor: 'pointer',
+      backgroundColor: state.isSelected ? '#3b82f6' : state.isFocused ? '#dbeafe' : 'white',
+      color: state.isSelected ? 'white' : 'black',
     }),
   };
 
