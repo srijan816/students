@@ -84,15 +84,7 @@ export default function Home() {
     }),
   };
 
-  // Handler for select change with correct signature matching React Select's expected types
-  // Use underscore prefix to indicate intentionally unused parameter
-  const handleSelectChange = (
-    newValue: unknown, 
-    _actionMeta: ActionMeta<unknown>
-  ) => {
-    const selectedOption = newValue as SelectOption | null;
-    setSelectedStudent(selectedOption ? selectedOption.value : null);
-  };
+  // Use a simplified inline handler to avoid any ESLint issues with unused parameters
 
   return (
     <div className="flex flex-col min-h-screen p-6 md:p-12">
@@ -106,7 +98,11 @@ export default function Home() {
         <div className="mb-10">
           <Select
             options={options}
-            onChange={handleSelectChange}
+            onChange={(newValue) => {
+              // Cast to proper type and update state
+              const selectedOption = newValue as SelectOption | null;
+              setSelectedStudent(selectedOption ? selectedOption.value : null);
+            }}
             placeholder="Search for a student..."
             isClearable
             styles={customStyles}
