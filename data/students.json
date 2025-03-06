@@ -1,0 +1,2605 @@
+{
+  "students": [
+    {
+      "first_name": "Adam",
+      "last_initial": "P.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        },
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "speaker",
+          "description": "Open 3rd Best"
+        },
+        {
+          "tournament": "Doxbridge WSDC 2024",
+          "date": "July 5-7, 2024",
+          "type": "team",
+          "description": "Silver Grand Finalist"
+        },
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2024",
+          "date": "March 1-3, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
+          "date": "January 20-21, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Adrian",
+      "last_initial": "W.",
+      "school": "DBS",
+      "achievements": [
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "team",
+          "description": "Open Semifinalist"
+        },
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "speaker",
+          "description": "U-16 10th Best"
+        },
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "speaker",
+          "description": "Junior 5th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Aiden",
+      "last_initial": "T.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2025",
+          "date": "Feb 7-9, 2025",
+          "type": "team",
+          "description": "Open Octofinalist"
+        },
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2025",
+          "date": "Feb 7-9, 2025",
+          "type": "speaker",
+          "description": "Middle School 7th Best"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "speaker",
+          "description": "Junior 10th Best"
+        },
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "team",
+          "description": "Open Semifinals"
+        },
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "speaker",
+          "description": "U14 OBS"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalist"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "speaker",
+          "description": "Open Joint 6th Best"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "speaker",
+          "description": "Middle School Joint OBS"
+        },
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        },
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "speaker",
+          "description": "Under-16 8th Best"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "team",
+          "description": "High School Champion"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "speaker",
+          "description": "Open Tied 7th Best"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "speaker",
+          "description": "Middle School OBS"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "speaker",
+          "description": "Novice Tied 3rd Best"
+        },
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        }
+      ]
+    },
+    {
+      "first_name": "Aiden",
+      "last_initial": "L.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "speaker",
+          "description": "Open 6th Best"
+        },
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "speaker",
+          "description": "U16 6th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Alexander",
+      "last_initial": "B.",
+      "school": "TA",
+      "achievements": [
+        {
+          "tournament": "Indo-Pacific Autumn WSDC 2024",
+          "date": "Oct 25-27, 2024",
+          "type": "team",
+          "description": "Under-16 Finalist"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalist"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "speaker",
+          "description": "Middle School 10th Best Speaker"
+        },
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        },
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "speaker",
+          "description": "Under-16 10th Best"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "team",
+          "description": "High School Champion"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "speaker",
+          "description": "Open Tied 7th Best"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "speaker",
+          "description": "Novice Tied 3rd Best"
+        },
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2024",
+          "date": "March 1-3, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2024",
+          "date": "March 1-3, 2024",
+          "type": "speaker",
+          "description": "Middle School Tied 4th Best"
+        },
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "speaker",
+          "description": "Open FBS"
+        },
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "team",
+          "description": "Open Finalists"
+        },
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "speaker",
+          "description": "Open 5th Best"
+        },
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "speaker",
+          "description": "High School 3rd Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Alicia",
+      "last_initial": "Z.",
+      "school": "FIS",
+      "achievements": [
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2025",
+          "date": "Feb 7-9, 2025",
+          "type": "team",
+          "description": "Open Octofinalist"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        },
+        {
+          "tournament": "Greater Bay Area WSDC 2024",
+          "date": "June 8-10, 2024",
+          "type": "team",
+          "description": "Senior Champion"
+        },
+        {
+          "tournament": "Greater Bay Area WSDC 2024",
+          "date": "June 8-10, 2024",
+          "type": "speaker",
+          "description": "Junior 9th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Alissa",
+      "last_initial": "M.",
+      "school": "VSA",
+      "achievements": [
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2025",
+          "date": "Feb 7-9, 2025",
+          "type": "team",
+          "description": "Open Octofinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Anders",
+      "last_initial": "P.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Junior WSDC 2024",
+          "date": "July 6-7, 2024",
+          "type": "team",
+          "description": "Under-12 Quarterfinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Angela",
+      "last_initial": "R.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2024",
+          "date": "March 1-3, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        }
+      ]
+    },
+    {
+      "first_name": "Ann",
+      "last_initial": "S.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Guangdong Debate Challenge 2024",
+          "date": "July 13-14, 2024",
+          "type": "team",
+          "description": "Schools Champion"
+        },
+        {
+          "tournament": "Guangdong Debate Challenge 2024",
+          "date": "July 13-14, 2024",
+          "type": "speaker",
+          "description": "Schools OBS"
+        }
+      ]
+    },
+    {
+      "first_name": "Annabel",
+      "last_initial": "C.",
+      "school": "ISF",
+      "achievements": [
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "team",
+          "description": "Open Semifinalist"
+        },
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "speaker",
+          "description": "Open 9th Best"
+        },
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "speaker",
+          "description": "Senior 7th Best"
+        },
+        {
+          "tournament": "Transpacific WSDC 2024",
+          "date": "Oct 4-6, 2024",
+          "type": "team",
+          "description": "U16 Champion"
+        }
+      ]
+    },
+    {
+      "first_name": "Anson",
+      "last_initial": "C.",
+      "school": "DGS",
+      "achievements": [
+        {
+          "tournament": "HK Senior Schools Debating Championships 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "team",
+          "description": "Champion"
+        },
+        {
+          "tournament": "HK Senior Schools Debating Championships 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "speaker",
+          "description": "8th Best"
+        },
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "team",
+          "description": "Open Semifinalist"
+        },
+        {
+          "tournament": "Indo-Pacific Pro-Am 2024",
+          "date": "July 20-21, 2024",
+          "type": "team",
+          "description": "Am-Am Finals"
+        },
+        {
+          "tournament": "Papillon IV WSDC 2024 ",
+          "date": "May 24-26, 2024",
+          "type": "team",
+          "description": "Open Finalists"
+        },
+        {
+          "tournament": "Papillon IV WSDC 2024 ",
+          "date": "May 24-26, 2024",
+          "type": "speaker",
+          "description": "Open 4th Best"
+        },
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "team",
+          "description": "High School Champion"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "speaker",
+          "description": "Novice 9th Best"
+        },
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2024",
+          "date": "March 1-3, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "speaker",
+          "description": "Open 3rd Best"
+        },
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "speaker",
+          "description": "Under-16 OBS"
+        },
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "team",
+          "description": "Open Finalists"
+        },
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "speaker",
+          "description": "Open 8th Best"
+        },
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "speaker",
+          "description": "High School 4th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Audrey",
+      "last_initial": "L.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "team",
+          "description": "Open Semifinalist"
+        },
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "speaker",
+          "description": "Open 4th Best"
+        },
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        },
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "speaker",
+          "description": "U-16 8th Best"
+        },
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Bella",
+      "last_initial": "L.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "speaker",
+          "description": "Junior 9th Best"
+        },
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "speaker",
+          "description": "U14 4th Best"
+        },
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "team",
+          "description": "Open Semifinals"
+        },
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Boris",
+      "last_initial": "C.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Junior WSDC 2024",
+          "date": "July 6-7, 2024",
+          "type": "team",
+          "description": "Under-12 Quarterfinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Catherine",
+      "last_initial": "H.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Indo-Pacific WSDO 2025",
+          "date": "Jan 10-12, 2025",
+          "type": "team",
+          "description": "Novice Champion"
+        },
+        {
+          "tournament": "Indo-Pacific WSDO 2025",
+          "date": "Jan 10-12, 2025",
+          "type": "speaker",
+          "description": "Novice 10th Best"
+        },
+        {
+          "tournament": "Indo-Pacific Autumn WSDC 2024",
+          "date": "Oct 25-27, 2024",
+          "type": "team",
+          "description": "Under-16 Finalist"
+        },
+        {
+          "tournament": "Transpacific WSDC 2024",
+          "date": "Oct 4-6, 2024",
+          "type": "team",
+          "description": "U16 Champion"
+        },
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "team",
+          "description": "Open Semifinals"
+        }
+      ]
+    },
+    {
+      "first_name": "Cecilia",
+      "last_initial": "L.",
+      "school": "BISG",
+      "achievements": [
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "speaker",
+          "description": "Junior 7th Best"
+        },
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "speaker",
+          "description": "U14 6th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Charles",
+      "last_initial": "W.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Charlotte",
+      "last_initial": "W.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Junior WSDC 2024",
+          "date": "July 6-7, 2024",
+          "type": "team",
+          "description": "Under-12 Quarterfinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Chloe",
+      "last_initial": "W.",
+      "school": "IS",
+      "achievements": [
+        {
+          "tournament": "HK Senior Schools Debating Championships 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "team",
+          "description": "Champion"
+        },
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "speaker",
+          "description": "Under-16 3rd Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Dominic",
+      "last_initial": "G.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Edna",
+      "last_initial": "C.",
+      "school": "SIS",
+      "achievements": [
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2025",
+          "date": "Feb 7-9, 2025",
+          "type": "team",
+          "description": "Open Octofinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Ellie",
+      "last_initial": "F.",
+      "school": "SPCS",
+      "achievements": [
+        {
+          "tournament": "Junior WSDC 2024",
+          "date": "July 6-7, 2024",
+          "type": "team",
+          "description": "Under-12 Quarterfinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Emi",
+      "last_initial": "R.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "CABP North Asia",
+          "date": "Jan 11-12, 2025",
+          "type": "team",
+          "description": "Champion"
+        },
+        {
+          "tournament": "CABP North Asia",
+          "date": "Jan 11-12, 2025",
+          "type": "speaker",
+          "description": "OBS"
+        },
+        {
+          "tournament": "CABP North Asia",
+          "date": "Jan 11-12, 2025",
+          "type": "speaker",
+          "description": "FBS"
+        },
+        {
+          "tournament": "Oxford Schools Debating Competition Hong Kong Regional Round 2024",
+          "date": "Dec 14-15, 2024",
+          "type": "team",
+          "description": "Finalist"
+        },
+        {
+          "tournament": "Oxford Schools Debating Competition Hong Kong Regional Round 2024",
+          "date": "Dec 14-15, 2024",
+          "type": "speaker",
+          "description": "9th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Emi",
+      "last_initial": "V.",
+      "school": "GSIS",
+      "achievements": [
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        },
+        {
+          "tournament": "HK Junior Schools Debating Championship 2024",
+          "date": "March 16-17, 2024",
+          "type": "speaker",
+          "description": "6th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Emma",
+      "last_initial": "D.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "CABP North Asia",
+          "date": "Jan 11-12, 2025",
+          "type": "team",
+          "description": "Champion"
+        },
+        {
+          "tournament": "CABP North Asia",
+          "date": "Jan 11-12, 2025",
+          "type": "speaker",
+          "description": "3rd Best Speaker"
+        }
+      ]
+    },
+    {
+      "first_name": "Ethan",
+      "last_initial": "C.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "team",
+          "description": "Open Semifinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Ethan",
+      "last_initial": "G.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Indo-Pacific WSDO 2025",
+          "date": "Jan 10-12, 2025",
+          "type": "team",
+          "description": "Novice Champion"
+        },
+        {
+          "tournament": "Indo-Pacific Autumn WSDC 2024",
+          "date": "Oct 25-27, 2024",
+          "type": "team",
+          "description": "Under-16 Finalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Ethan",
+      "last_initial": "H.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        }
+      ]
+    },
+    {
+      "first_name": "Evelyn",
+      "last_initial": "W.",
+      "school": "KGV",
+      "achievements": [
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        },
+        {
+          "tournament": "Indian Debate Open 2024",
+          "date": "July 27-28, 2024",
+          "type": "speaker",
+          "description": "Schools 9th Best"
+        },
+        {
+          "tournament": "Shanghai International Debate Open 2024",
+          "date": "March 29-31, 2024",
+          "type": "team",
+          "description": "High School Finals"
+        },
+        {
+          "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
+          "date": "January 20-21, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Gemma",
+      "last_initial": "Y.",
+      "school": "KGV",
+      "achievements": [
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalist"
+        },
+        {
+          "tournament": "HK Junior Schools Debating Championship 2024",
+          "date": "March 16-17, 2024",
+          "type": "team",
+          "description": "Champion"
+        }
+      ]
+    },
+    {
+      "first_name": "Gigi",
+      "last_initial": "C.",
+      "school": "DGS",
+      "achievements": [
+        {
+          "tournament": "HK Senior Schools Debating Championships 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "team",
+          "description": "Champion"
+        },
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "team",
+          "description": "Open Semifinalist"
+        },
+        {
+          "tournament": "Indo-Pacific Pro-Am 2024",
+          "date": "July 20-21, 2024",
+          "type": "team",
+          "description": "Am-Am Finals"
+        },
+        {
+          "tournament": "Papillon IV WSDC 2024 ",
+          "date": "May 24-26, 2024",
+          "type": "team",
+          "description": "Open Finalists"
+        },
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "team",
+          "description": "High School Champion"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "speaker",
+          "description": "Novice 6th Best"
+        },
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "team",
+          "description": "Open Finalists"
+        },
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "speaker",
+          "description": "High School 10th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Giselle",
+      "last_initial": "Y.",
+      "school": "MSS",
+      "achievements": [
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "team",
+          "description": "Open Semifinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Hailey",
+      "last_initial": "L.",
+      "school": "SSCPS",
+      "achievements": [
+        {
+          "tournament": "Junior WSDC 2024",
+          "date": "July 6-7, 2024",
+          "type": "team",
+          "description": "Under-12 Quarterfinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Hanna",
+      "last_initial": "Z.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "team",
+          "description": "Open Semifinalist"
+        },
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "team",
+          "description": "Open Semifinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Hayley",
+      "last_initial": "Y.",
+      "school": "DGS",
+      "achievements": [
+        {
+          "tournament": "HK Senior Schools Debating Championships 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "team",
+          "description": "Champion"
+        },
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "team",
+          "description": "Open Semifinalist"
+        },
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "speaker",
+          "description": "Open 3rd Best"
+        },
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "speaker",
+          "description": "U16 3rd Best"
+        },
+        {
+          "tournament": "Papillon IV WSDC 2024 ",
+          "date": "May 24-26, 2024",
+          "type": "team",
+          "description": "Open Finalists"
+        },
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        },
+        {
+          "tournament": "HK Junior Schools Debating Championship 2024",
+          "date": "March 16-17, 2024",
+          "type": "team",
+          "description": "Champion"
+        },
+        {
+          "tournament": "HK Junior Schools Debating Championship 2024",
+          "date": "March 16-17, 2024",
+          "type": "speaker",
+          "description": "7th Best"
+        },
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "speaker",
+          "description": "Under-16 7th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Henry",
+      "last_initial": "C.",
+      "school": "VSA",
+      "achievements": [
+        {
+          "tournament": "Junior WSDC 2024",
+          "date": "July 6-7, 2024",
+          "type": "team",
+          "description": "Under-12 Quarterfinalist"
+        },
+        {
+          "tournament": "Junior WSDC 2024",
+          "date": "July 6-7, 2024",
+          "type": "speaker",
+          "description": "Under-12 8th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Hisham",
+      "last_initial": "K.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "team",
+          "description": "Open Semifinalist"
+        },
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Isabella",
+      "last_initial": "Z.",
+      "school": "BNDS",
+      "achievements": [
+        {
+          "tournament": "Eurasian Schools Debating Championship 2025",
+          "date": "Jan 17-20, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Ivy",
+      "last_initial": "X.",
+      "school": "GSIS",
+      "achievements": [
+        {
+          "tournament": "Transpacific WSDC 2024",
+          "date": "Oct 4-6, 2024",
+          "type": "team",
+          "description": "U16 Champion"
+        },
+        {
+          "tournament": "Transpacific WSDC 2024",
+          "date": "Oct 4-6, 2024",
+          "type": "speaker",
+          "description": "U14 2nd Best"
+        },
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "team",
+          "description": "Open Semifinals"
+        }
+      ]
+    },
+    {
+      "first_name": "Jacky",
+      "last_initial": "X.",
+      "school": "GSIS",
+      "achievements": [
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "team",
+          "description": "Open Semifinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Jasmine",
+      "last_initial": "G.",
+      "school": "ISB",
+      "achievements": [
+        {
+          "tournament": "Eurasian Schools Debating Championship 2025",
+          "date": "Jan 17-20, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        },
+        {
+          "tournament": "Eurasian Schools Debating Championship 2025",
+          "date": "Jan 17-20, 2025",
+          "type": "speaker",
+          "description": "6th Best"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Jeffrey",
+      "last_initial": "S.",
+      "school": "WIS",
+      "achievements": [
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2025",
+          "date": "Feb 7-9, 2025",
+          "type": "team",
+          "description": "Open Octofinalist"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "speaker",
+          "description": "Junior 4th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Jehanne",
+      "last_initial": "H.",
+      "school": "IS",
+      "achievements": [
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "team",
+          "description": "High School Champion"
+        }
+      ]
+    },
+    {
+      "first_name": "Jimi",
+      "last_initial": "F.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        },
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2024",
+          "date": "March 1-3, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        }
+      ]
+    },
+    {
+      "first_name": "Jodie",
+      "last_initial": "L.",
+      "school": "IS",
+      "achievements": [
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Jonathan",
+      "last_initial": "H.",
+      "school": "DBS",
+      "achievements": [
+        {
+          "tournament": "HK Senior Schools Debating Championships 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "team",
+          "description": "Champion"
+        },
+        {
+          "tournament": "HK Senior Schools Debating Championships 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "speaker",
+          "description": "OBS"
+        },
+        {
+          "tournament": "Shanghai International Debate Open 2024",
+          "date": "March 29-31, 2024",
+          "type": "team",
+          "description": "High School Finals"
+        },
+        {
+          "tournament": "Cambridge Asia British Parliamentary 2024",
+          "date": "February 17-18, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "team",
+          "description": "Open Finalists"
+        },
+        {
+          "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
+          "date": "January 20-21, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Junyang",
+      "last_initial": "L.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Doxbridge WSDC 2024",
+          "date": "July 5-7, 2024",
+          "type": "team",
+          "description": "Silver Grand Finalist"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "team",
+          "description": "High School Champion"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "speaker",
+          "description": "Open Tied 5th Best"
+        },
+        {
+          "tournament": "Cambridge Asia British Parliamentary 2024",
+          "date": "February 17-18, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        }
+      ]
+    },
+    {
+      "first_name": "Kelly",
+      "last_initial": "A.",
+      "school": "SPCC",
+      "achievements": [
+        {
+          "tournament": "HK Junior Schools Debating Championship 2024",
+          "date": "March 16-17, 2024",
+          "type": "speaker",
+          "description": "10th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Kevin",
+      "last_initial": "H.",
+      "school": "ISF",
+      "achievements": [
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "team",
+          "description": "Open Semifinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Lilianna",
+      "last_initial": "P.",
+      "school": "SPCC",
+      "achievements": [
+        {
+          "tournament": "Junior WSDC 2024",
+          "date": "July 6-7, 2024",
+          "type": "team",
+          "description": "Under-12 Quarterfinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Lincoln",
+      "last_initial": "L.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "team",
+          "description": "Open Semifinals"
+        },
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Luke",
+      "last_initial": "S.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Asia Schools Open - Asian Parliamentary (Winter Edition) 2025",
+          "date": "Jan 18-19, 2025",
+          "type": "team",
+          "description": "15-and-Under Champion"
+        },
+        {
+          "tournament": "Asia Schools Open - Asian Parliamentary (Winter Edition) 2025",
+          "date": "Jan 18-19, 2025",
+          "type": "speaker",
+          "description": "12-and-Under 10th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Maddie",
+      "last_initial": "P.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "team",
+          "description": "Open Semifinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Marcus",
+      "last_initial": "L.",
+      "school": "DBS",
+      "achievements": [
+        {
+          "tournament": "Asia Junior WSDC 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "team",
+          "description": "Under-11 Semifinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Matias",
+      "last_initial": "L.",
+      "school": "N/A",
+      "achievements": [
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "speaker",
+          "description": "Senior 9th Best"
+        },
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "team",
+          "description": "Open Finalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Max",
+      "last_initial": "L.",
+      "school": "DBS",
+      "achievements": [
+        {
+          "tournament": "HK Senior Schools Debating Championships 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "team",
+          "description": "Champion"
+        },
+        {
+          "tournament": "HK Senior Schools Debating Championships 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "speaker",
+          "description": "10th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Megan",
+      "last_initial": "Z.",
+      "school": "KGV",
+      "achievements": [
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        }
+      ]
+    },
+    {
+      "first_name": "Michele",
+      "last_initial": "L.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "speaker",
+          "description": "Open 6th Best"
+        },
+        {
+          "tournament": "Doxbridge WSDC 2024",
+          "date": "July 5-7, 2024",
+          "type": "team",
+          "description": "Silver Grand Finalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Michelle",
+      "last_initial": "Z.",
+      "school": "SIS",
+      "achievements": [
+        {
+          "tournament": "Asia Junior WSDC 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "team",
+          "description": "Under-11 Semifinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Mollie",
+      "last_initial": "M.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "HK Senior Schools Debating Championships 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "speaker",
+          "description": "3rd Best"
+        },
+        {
+          "tournament": "Shanghai International Debate Open 2024",
+          "date": "March 29-31, 2024",
+          "type": "speaker",
+          "description": "HS 5th Best"
+        },
+        {
+          "tournament": "HK Junior Schools Debating Championship 2024",
+          "date": "March 16-17, 2024",
+          "type": "team",
+          "description": "Champion"
+        },
+        {
+          "tournament": "HK Junior Schools Debating Championship 2024",
+          "date": "March 16-17, 2024",
+          "type": "speaker",
+          "description": "OBS"
+        },
+        {
+          "tournament": "Cambridge Asia British Parliamentary 2024",
+          "date": "February 17-18, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Cambridge Asia British Parliamentary 2024",
+          "date": "February 17-18, 2024",
+          "type": "speaker",
+          "description": "Open OBS"
+        },
+        {
+          "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
+          "date": "January 20-21, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Monique",
+      "last_initial": "S.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Moses",
+      "last_initial": "L.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "speaker",
+          "description": "Senior 4th Best"
+        },
+        {
+          "tournament": "Doxbridge WSDC 2024",
+          "date": "July 5-7, 2024",
+          "type": "team",
+          "description": "Silver Grand Finalist"
+        },
+        {
+          "tournament": "Greater Bay Area WSDC 2024",
+          "date": "June 8-10, 2024",
+          "type": "team",
+          "description": "Senior Champion"
+        },
+        {
+          "tournament": "Greater Bay Area WSDC 2024",
+          "date": "June 8-10, 2024",
+          "type": "speaker",
+          "description": "Senior FBS"
+        },
+        {
+          "tournament": "Greater Bay Area WSDC 2024",
+          "date": "June 8-10, 2024",
+          "type": "speaker",
+          "description": "Senior OBS"
+        },
+        {
+          "tournament": "Shanghai International Debate Open 2024",
+          "date": "March 29-31, 2024",
+          "type": "team",
+          "description": "High School Finals"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "team",
+          "description": "High School Champion"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "speaker",
+          "description": "Open Tied 5th Best"
+        },
+        {
+          "tournament": "Cambridge Asia British Parliamentary 2024",
+          "date": "February 17-18, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
+          "date": "January 20-21, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Nathalie",
+      "last_initial": "N.",
+      "school": "HISHK",
+      "achievements": [
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        },
+        {
+          "tournament": "Oxford Schools Debating Competition Hong Kong Regional Round 2024",
+          "date": "Dec 14-15, 2024",
+          "type": "speaker",
+          "description": "5th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Nelson",
+      "last_initial": "B.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "team",
+          "description": "Open Finalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Nick",
+      "last_initial": "S.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "speaker",
+          "description": "Senior 5th Best"
+        },
+        {
+          "tournament": "Guangdong Debate Challenge 2024",
+          "date": "July 13-14, 2024",
+          "type": "team",
+          "description": "Schools Champion"
+        },
+        {
+          "tournament": "Guangdong Debate Challenge 2024",
+          "date": "July 13-14, 2024",
+          "type": "speaker",
+          "description": "Schools 7th Best"
+        },
+        {
+          "tournament": "Doxbridge WSDC 2024",
+          "date": "July 5-7, 2024",
+          "type": "team",
+          "description": "Silver Grand Finalist"
+        },
+        {
+          "tournament": "Shanghai International Debate Open 2024",
+          "date": "March 29-31, 2024",
+          "type": "team",
+          "description": "High School Finals"
+        },
+        {
+          "tournament": "Cambridge Asia British Parliamentary 2024",
+          "date": "February 17-18, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
+          "date": "January 20-21, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Novice",
+      "last_initial": "Z.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Novice",
+      "last_initial": "S.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Pacey",
+      "last_initial": "Q.",
+      "school": "DCB",
+      "achievements": [
+        {
+          "tournament": "Indo-Pacific Autumn WSDC 2024",
+          "date": "Oct 25-27, 2024",
+          "type": "team",
+          "description": "Under-16 Finalist"
+        },
+        {
+          "tournament": "Indo-Pacific Autumn WSDC 2024",
+          "date": "Oct 25-27, 2024",
+          "type": "speaker",
+          "description": "Open 7th Best"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalist"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "speaker",
+          "description": "Middle School 8th Best Speaker"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "speaker",
+          "description": "Middle School FBS"
+        },
+        {
+          "tournament": "Greater Bay Area WSDC 2024",
+          "date": "June 8-10, 2024",
+          "type": "team",
+          "description": "Senior Champion"
+        },
+        {
+          "tournament": "Greater Bay Area WSDC 2024",
+          "date": "June 8-10, 2024",
+          "type": "speaker",
+          "description": "Junior 5th Best"
+        },
+        {
+          "tournament": "Papillon IV WSDC 2024 ",
+          "date": "May 24-26, 2024",
+          "type": "team",
+          "description": "Open Finalists"
+        },
+        {
+          "tournament": "Papillon IV WSDC 2024 ",
+          "date": "May 24-26, 2024",
+          "type": "speaker",
+          "description": "Under-16 3rd Best"
+        },
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        },
+        {
+          "tournament": "Shanghai International Debate Open 2024",
+          "date": "March 29-31, 2024",
+          "type": "team",
+          "description": "High School Finals"
+        },
+        {
+          "tournament": "Indo-Pacific British Parliamentary Open 2024",
+          "date": "March 23-24, 2024",
+          "type": "team",
+          "description": "High School Champion"
+        },
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2024",
+          "date": "March 1-3, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2024",
+          "date": "March 1-3, 2024",
+          "type": "speaker",
+          "description": "Middle School 3rd Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Peyton",
+      "last_initial": "Q.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
+          "date": "January 20-21, 2024",
+          "type": "speaker",
+          "description": "Novice 4th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Renee",
+      "last_initial": "Y.",
+      "school": "ICS",
+      "achievements": [
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2025",
+          "date": "Feb 7-9, 2025",
+          "type": "team",
+          "description": "Open Octofinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Riya",
+      "last_initial": "P.",
+      "school": "STC",
+      "achievements": [
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "team",
+          "description": "Open Semifinals"
+        },
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "team",
+          "description": "Open Finalists"
+        },
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "speaker",
+          "description": "Open 4th Best"
+        },
+        {
+          "tournament": "9th Linkbate 2024",
+          "date": "January 27-28, 2024",
+          "type": "speaker",
+          "description": "High School 2nd Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Rose",
+      "last_initial": "W.",
+      "school": "GSIS",
+      "achievements": [
+        {
+          "tournament": "Asia Junior WSDC 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "team",
+          "description": "Under-11 Semifinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Ryan",
+      "last_initial": "Q.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "team",
+          "description": "Open Semifinalist"
+        },
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        },
+        {
+          "tournament": "Indo-Pacific WSDO 2025",
+          "date": "Jan 10-12, 2025",
+          "type": "team",
+          "description": "Novice Champion"
+        }
+      ]
+    },
+    {
+      "first_name": "Samaira",
+      "last_initial": "S.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "speaker",
+          "description": "Open 7th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Samuel",
+      "last_initial": "K.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2025",
+          "date": "Feb 7-9, 2025",
+          "type": "team",
+          "description": "Open Octofinalist"
+        },
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "team",
+          "description": "Open Semifinals"
+        },
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "speaker",
+          "description": "U14 7th Best"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalist"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "speaker",
+          "description": "Middle School Joint 4th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Sarah",
+      "last_initial": "C.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "team",
+          "description": "Open Semifinalist"
+        },
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "speaker",
+          "description": "U14 4th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Sean",
+      "last_initial": "W.",
+      "school": "QBS",
+      "achievements": [
+        {
+          "tournament": "Junior WSDC 2024",
+          "date": "July 6-7, 2024",
+          "type": "team",
+          "description": "Under-12 Quarterfinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Seungmin",
+      "last_initial": "K.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalist"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "speaker",
+          "description": "Middle School Joint 4th Best"
+        },
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        },
+        {
+          "tournament": "HK Junior Schools Debating Championship 2024",
+          "date": "March 16-17, 2024",
+          "type": "team",
+          "description": "Champion"
+        },
+        {
+          "tournament": "HK Junior Schools Debating Championship 2024",
+          "date": "March 16-17, 2024",
+          "type": "speaker",
+          "description": "3rd Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Shi",
+      "last_initial": "O.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Transpacific WSDC 2024",
+          "date": "Oct 4-6, 2024",
+          "type": "team",
+          "description": "U16 Champion"
+        },
+        {
+          "tournament": "Transpacific WSDC 2024",
+          "date": "Oct 4-6, 2024",
+          "type": "speaker",
+          "description": "U14 5th Best"
+        },
+        {
+          "tournament": "Seasons WSDC 2024",
+          "date": "August 23-25, 2024",
+          "type": "team",
+          "description": "Open Semifinals"
+        }
+      ]
+    },
+    {
+      "first_name": "Technically,",
+      "last_initial": "S.",
+      "school": "WIS",
+      "achievements": [
+        {
+          "tournament": "Indo-Pacific Autumn WSDC 2024",
+          "date": "Oct 25-27, 2024",
+          "type": "team",
+          "description": "Under-16 Finalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Theo",
+      "last_initial": "L.",
+      "school": "PLKCKYS",
+      "achievements": [
+        {
+          "tournament": "Asia Junior WSDC 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "team",
+          "description": "Under-11 Semifinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Theodore",
+      "last_initial": "W.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "speaker",
+          "description": "U14 6th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Tony",
+      "last_initial": "S.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        },
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "speaker",
+          "description": "Open 2nd Best"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Senior Finalists"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "speaker",
+          "description": "Senior FBS"
+        },
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "speaker",
+          "description": "Senior 3rd Best"
+        },
+        {
+          "tournament": "Guangdong Debate Challenge 2024",
+          "date": "July 13-14, 2024",
+          "type": "team",
+          "description": "Schools Champion"
+        },
+        {
+          "tournament": "Guangdong Debate Challenge 2024",
+          "date": "July 13-14, 2024",
+          "type": "speaker",
+          "description": "Schools 7th Best"
+        },
+        {
+          "tournament": "Guangdong Debate Challenge 2024",
+          "date": "July 13-14, 2024",
+          "type": "speaker",
+          "description": "Schools FBS"
+        },
+        {
+          "tournament": "Doxbridge WSDC 2024",
+          "date": "July 5-7, 2024",
+          "type": "team",
+          "description": "Silver Grand Finalist"
+        },
+        {
+          "tournament": "Greater Bay Area WSDC 2024",
+          "date": "June 8-10, 2024",
+          "type": "team",
+          "description": "Senior Champion"
+        },
+        {
+          "tournament": "Greater Bay Area WSDC 2024",
+          "date": "June 8-10, 2024",
+          "type": "speaker",
+          "description": "Senior 3rd Best"
+        },
+        {
+          "tournament": "Shanghai International Debate Open 2024",
+          "date": "March 29-31, 2024",
+          "type": "team",
+          "description": "High School Finals"
+        },
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2024",
+          "date": "March 1-3, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2024",
+          "date": "March 1-3, 2024",
+          "type": "speaker",
+          "description": "Open FBS"
+        },
+        {
+          "tournament": "Cambridge Asia British Parliamentary 2024",
+          "date": "February 17-18, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
+          "date": "January 20-21, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Torres",
+      "last_initial": "L.",
+      "school": "FIS",
+      "achievements": [
+        {
+          "tournament": "Novice WSDC 2025",
+          "date": "Feb 22-23, 2025",
+          "type": "team",
+          "description": "Open Semifinalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Valerie",
+      "last_initial": "C.",
+      "school": "KGV",
+      "achievements": [
+        {
+          "tournament": "Indo-Pacific Pro-Am 2024",
+          "date": "July 20-21, 2024",
+          "type": "team",
+          "description": "Am-Am Finals"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalist"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "speaker",
+          "description": "Open Joint 6th Best"
+        },
+        {
+          "tournament": "Everest International World Schools Debating Championship 2024",
+          "date": "June 21-23, 2024",
+          "type": "speaker",
+          "description": "Middle School Joint OBS"
+        },
+        {
+          "tournament": "Novice World Schools Debating Championship 2024",
+          "date": "February 24-25, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        }
+      ]
+    },
+    {
+      "first_name": "Valerie",
+      "last_initial": "C.",
+      "school": "SMCC",
+      "achievements": [
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Vincy",
+      "last_initial": "L.",
+      "school": "IS",
+      "achievements": [
+        {
+          "tournament": "HK Junior Schools Debating Championship 2024",
+          "date": "March 16-17, 2024",
+          "type": "team",
+          "description": "Champion"
+        }
+      ]
+    },
+    {
+      "first_name": "Vir",
+      "last_initial": "K.",
+      "school": "SAS",
+      "achievements": [
+        {
+          "tournament": "Indo-Pacific Autumn WSDC 2024",
+          "date": "Oct 25-27, 2024",
+          "type": "team",
+          "description": "Under-16 Finalist"
+        },
+        {
+          "tournament": "Doxbridge WSDC 2024",
+          "date": "July 5-7, 2024",
+          "type": "team",
+          "description": "Silver Grand Finalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Yeonseo",
+      "last_initial": "K.",
+      "school": "GSIS",
+      "achievements": [
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        },
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "speaker",
+          "description": "U-16 FBS"
+        },
+        {
+          "tournament": "Asia Schools Open - Asian Parliamentary (Winter Edition) 2025",
+          "date": "Jan 18-19, 2025",
+          "type": "team",
+          "description": "15-and-Under Champion"
+        },
+        {
+          "tournament": "Indo-Pacific WSDO 2025",
+          "date": "Jan 10-12, 2025",
+          "type": "team",
+          "description": "Novice Champion"
+        },
+        {
+          "tournament": "Indo-Pacific WSDO 2025",
+          "date": "Jan 10-12, 2025",
+          "type": "speaker",
+          "description": "Open 8th Best"
+        },
+        {
+          "tournament": "Indo-Pacific WSDO 2025",
+          "date": "Jan 10-12, 2025",
+          "type": "speaker",
+          "description": "Novice 3rd Best"
+        },
+        {
+          "tournament": "Indo-Pacific WSDO 2025",
+          "date": "Jan 10-12, 2025",
+          "type": "speaker",
+          "description": "U16 7th Best"
+        },
+        {
+          "tournament": "Indo-Pacific WSDO 2025",
+          "date": "Jan 10-12, 2025",
+          "type": "speaker",
+          "description": "U14 2nd Best"
+        },
+        {
+          "tournament": "Asia Junior BP 2025",
+          "date": "Jan 4-5, 2025",
+          "type": "speaker",
+          "description": "U15 7th Best"
+        },
+        {
+          "tournament": "Transpacific WSDC 2024",
+          "date": "Oct 4-6, 2024",
+          "type": "team",
+          "description": "U16 Champion"
+        },
+        {
+          "tournament": "Transpacific WSDC 2024",
+          "date": "Oct 4-6, 2024",
+          "type": "speaker",
+          "description": "U14 4th Best"
+        },
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "speaker",
+          "description": "U16 8th Best"
+        },
+        {
+          "tournament": "Malaysia International World Schools Debating Championship 2024 ",
+          "date": "April 27-28, 2024",
+          "type": "team",
+          "description": "Open Octofinalists"
+        }
+      ]
+    },
+    {
+      "first_name": "Yifu",
+      "last_initial": "X.",
+      "school": "BCIS",
+      "achievements": [
+        {
+          "tournament": "Eurasian Schools Debating Championship 2025",
+          "date": "Jan 17-20, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        },
+        {
+          "tournament": "Greater Bay Area WSDC 2024",
+          "date": "June 8-10, 2024",
+          "type": "team",
+          "description": "Senior Champion"
+        },
+        {
+          "tournament": "Greater Bay Area WSDC 2024",
+          "date": "June 8-10, 2024",
+          "type": "speaker",
+          "description": "Juniot 7th Best"
+        },
+        {
+          "tournament": "Shanghai International Debate Open 2024",
+          "date": "March 29-31, 2024",
+          "type": "team",
+          "description": "High School Finals"
+        },
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2024",
+          "date": "March 1-3, 2024",
+          "type": "team",
+          "description": "Open Champion"
+        },
+        {
+          "tournament": "Asian Online Debating Championship WSDC 2024",
+          "date": "March 1-3, 2024",
+          "type": "speaker",
+          "description": "Middle School Tied 4th Best"
+        }
+      ]
+    },
+    {
+      "first_name": "Zechariah",
+      "last_initial": "C.",
+      "school": "DCB",
+      "achievements": [
+        {
+          "tournament": "South Asia WSDC",
+          "date": "Jan 25-26, 2025",
+          "type": "team",
+          "description": "Open Finalist"
+        }
+      ]
+    },
+    {
+      "first_name": "Zhe-Hong",
+      "last_initial": "W.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Oxford Schools Debating Competition Hong Kong Regional Round 2024",
+          "date": "Dec 14-15, 2024",
+          "type": "team",
+          "description": "Finalist"
+        },
+        {
+          "tournament": "Oxford Schools Debating Competition Hong Kong Regional Round 2024",
+          "date": "Dec 14-15, 2024",
+          "type": "speaker",
+          "description": "FBS"
+        },
+        {
+          "tournament": "Oxford Schools Debating Competition Hong Kong Regional Round 2024",
+          "date": "Dec 14-15, 2024",
+          "type": "speaker",
+          "description": "3rd Best"
+        },
+        {
+          "tournament": "Greater Bay Area WSDC 2024",
+          "date": "June 8-10, 2024",
+          "type": "team",
+          "description": "Senior Champion"
+        },
+        {
+          "tournament": "Greater Bay Area WSDC 2024",
+          "date": "June 8-10, 2024",
+          "type": "speaker",
+          "description": "Senior 2nd Best"
+        },
+        {
+          "tournament": "Shanghai International Debate Open 2024",
+          "date": "March 29-31, 2024",
+          "type": "team",
+          "description": "High School Finals"
+        },
+        {
+          "tournament": "HK Junior Schools Debating Championship 2024",
+          "date": "March 16-17, 2024",
+          "type": "team",
+          "description": "Champion"
+        },
+        {
+          "tournament": "HK Junior Schools Debating Championship 2024",
+          "date": "March 16-17, 2024",
+          "type": "speaker",
+          "description": "2nd Best"
+        },
+        {
+          "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
+          "date": "January 20-21, 2024",
+          "type": "team",
+          "description": "Open Quarterfinalists"
+        },
+        {
+          "tournament": "Indo-Pacific World Schools Debate Open 2024 ",
+          "date": "January 20-21, 2024",
+          "type": "speaker",
+          "description": "Under-16 7th Best"
+        }
+      ]
+    }
+  ]
+}
