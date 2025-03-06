@@ -85,9 +85,10 @@ export default function Home() {
   };
 
   // Handler for select change with correct signature matching React Select's expected types
+  // Use underscore prefix to indicate intentionally unused parameter
   const handleSelectChange = (
     newValue: unknown, 
-    actionMeta: ActionMeta<unknown>
+    _actionMeta: ActionMeta<unknown>
   ) => {
     const selectedOption = newValue as SelectOption | null;
     setSelectedStudent(selectedOption ? selectedOption.value : null);
