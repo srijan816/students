@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-import Image from 'next/image';
 
 // Import the JSON directly for initial render
 import studentsData from '../../data/students.json';
@@ -65,7 +64,7 @@ export default function Home() {
       <main className="w-full max-w-4xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold mb-4">Debate Achievements</h1>
-          <p className="text-gray-600 dark:text-gray-300">Enter a student's name to view their achievements</p>
+          <p className="text-gray-600 dark:text-gray-300">Enter a student&apos;s name to view their achievements</p>
           {loading && <p className="text-blue-500 mt-2">Loading latest student data...</p>}
         </div>
         

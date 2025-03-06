@@ -3,9 +3,6 @@ import fs from 'fs';
 import * as XLSX from 'xlsx';
 import path from 'path';
 
-// Use synchronous file operations for API routes
-const fsPromises = fs.promises;
-
 /**
  * GET handler for retrieving student data from the Excel file
  * @returns {Promise<NextResponse>} JSON response with student data
