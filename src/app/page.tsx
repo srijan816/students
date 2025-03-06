@@ -6,6 +6,9 @@ import dynamic from 'next/dynamic';
 // Import the JSON directly for initial render
 import studentsData from '../../data/students.json';
 
+// Import types for react-select
+import type { StylesConfig } from 'react-select';
+
 // Dynamically import react-select to avoid server-side rendering issues
 const Select = dynamic(() => import('react-select'), { ssr: false });
 
@@ -68,18 +71,18 @@ export default function Home() {
   }));
 
   // Define types for the Select component styles
-  const customStyles = {
-    control: (provided: Record<string, any>) => ({
-      ...provided,
+  const customStyles: StylesConfig<SelectOption, false> = {
+    control: (baseStyles) => ({
+      ...baseStyles,
       width: '100%',
       maxWidth: '400px',
       margin: '0 auto',
     }),
-    option: (provided: Record<string, any>, state: { isSelected: boolean; isFocused: boolean }) => ({
-      ...provided,
+    option: (baseStyles, { isSelected, isFocused }) => ({
+      ...baseStyles,
       cursor: 'pointer',
-      backgroundColor: state.isSelected ? '#3b82f6' : state.isFocused ? '#dbeafe' : 'white',
-      color: state.isSelected ? 'white' : 'black',
+      backgroundColor: isSelected ? '#3b82f6' : isFocused ? '#dbeafe' : 'white',
+      color: isSelected ? 'white' : 'black',
     }),
   };
 
@@ -95,7 +98,7 @@ export default function Home() {
         <div className="mb-10">
           <Select
             options={options}
-            onChange={(option: SelectOption | null) => setSelectedStudent(option ? option.value : null)}
+            onChange={(option) => setSelectedStudent(option ? option.value : null)}
             placeholder="Search for a student..."
             isClearable
             styles={customStyles}
