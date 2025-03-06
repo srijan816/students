@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Fragment } from 'react';
 import dynamic from 'next/dynamic';
 import type { StylesConfig, GroupBase } from 'react-select';
 
@@ -156,7 +156,7 @@ export default function Home() {
                           const [tournament, date] = key.split('|');
                           
                           return (
-                            <React.Fragment key={`speaker-group-${groupIndex}`}>
+                            <Fragment key={`speaker-group-${groupIndex}`}>
                               {achievements.map((achievement, achievementIndex) => {
                                 const isFirstInGroup = achievementIndex === 0;
                                 return (
@@ -186,7 +186,7 @@ export default function Home() {
                                   </tr>
                                 );
                               })}
-                            </React.Fragment>
+                            </Fragment>
                           );
                         });
                         
@@ -236,7 +236,7 @@ export default function Home() {
                           const [tournament, date] = key.split('|');
                           
                           return (
-                            <React.Fragment key={`team-group-${groupIndex}`}>
+                            <Fragment key={`team-group-${groupIndex}`}>
                               {achievements.map((achievement, achievementIndex) => {
                                 const isFirstInGroup = achievementIndex === 0;
                                 return (
@@ -266,7 +266,7 @@ export default function Home() {
                                   </tr>
                                 );
                               })}
-                            </React.Fragment>
+                            </Fragment>
                           );
                         });
                         
