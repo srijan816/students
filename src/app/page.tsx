@@ -139,43 +139,15 @@ export default function Home() {
                             if (!a.date || !b.date) return 0;
                             return a.date < b.date ? 1 : -1;
                           });
-                        
-                        // Group achievements by tournament
-                        const groupedByTournament = speakerAchievements.reduce((groups, achievement) => {
-                          const key = `${achievement.tournament}|${achievement.date}`;
-                          if (!groups[key]) {
-                            groups[key] = [];
-                          }
-                          groups[key].push(achievement);
-                          return groups;
-                        }, {} as Record<string, Achievement[]>);
-                        
-                        // Render grouped achievements
-                        return Object.entries(groupedByTournament).map(([key, tournaments], groupIndex) => {
-                          const [tournamentName, date] = key.split('|');
-                          return (
-                            <tr key={key} className={groupIndex % 2 === 0 ? 'bg-white dark:bg-gray-800' : 'bg-gray-50 dark:bg-gray-700'}>
-                              <td className="border border-gray-300 dark:border-gray-600 px-4 py-2" rowSpan={tournaments.length}>
-                                {tournamentName}
-                              </td>
-                              <td className="border border-gray-300 dark:border-gray-600 px-4 py-2" rowSpan={tournaments.length}>
-                                {date}
-                              </td>
-                              <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">
-                                {tournaments[0].description}
-                              </td>
-                              
-                              {/* If there are multiple achievements for this tournament, render additional rows */}
-                              {tournaments.slice(1).map((achievement, i) => (
-                                <tr key={`${key}-${i}`} className={groupIndex % 2 === 0 ? 'bg-white dark:bg-gray-800' : 'bg-gray-50 dark:bg-gray-700'}>
-                                  <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">
-                                    {achievement.description}
-                                  </td>
-                                </tr>
-                              ))}
-                            </tr>
-                          );
-                        });
+                          
+                        // Map each achievement to a table row
+                        return speakerAchievements.map((achievement, index) => (
+                          <tr key={`speaker-${index}`} className={index % 2 === 0 ? 'bg-white dark:bg-gray-800' : 'bg-gray-50 dark:bg-gray-700'}>
+                            <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">{achievement.tournament}</td>
+                            <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">{achievement.date}</td>
+                            <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">{achievement.description}</td>
+                          </tr>
+                        ));
                       })()
                       }
                     </tbody>
@@ -204,43 +176,15 @@ export default function Home() {
                             if (!a.date || !b.date) return 0;
                             return a.date < b.date ? 1 : -1;
                           });
-                        
-                        // Group achievements by tournament
-                        const groupedByTournament = teamAchievements.reduce((groups, achievement) => {
-                          const key = `${achievement.tournament}|${achievement.date}`;
-                          if (!groups[key]) {
-                            groups[key] = [];
-                          }
-                          groups[key].push(achievement);
-                          return groups;
-                        }, {} as Record<string, Achievement[]>);
-                        
-                        // Render grouped achievements
-                        return Object.entries(groupedByTournament).map(([key, tournaments], groupIndex) => {
-                          const [tournamentName, date] = key.split('|');
-                          return (
-                            <tr key={key} className={groupIndex % 2 === 0 ? 'bg-white dark:bg-gray-800' : 'bg-gray-50 dark:bg-gray-700'}>
-                              <td className="border border-gray-300 dark:border-gray-600 px-4 py-2" rowSpan={tournaments.length}>
-                                {tournamentName}
-                              </td>
-                              <td className="border border-gray-300 dark:border-gray-600 px-4 py-2" rowSpan={tournaments.length}>
-                                {date}
-                              </td>
-                              <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">
-                                {tournaments[0].description}
-                              </td>
-                              
-                              {/* If there are multiple achievements for this tournament, render additional rows */}
-                              {tournaments.slice(1).map((achievement, i) => (
-                                <tr key={`${key}-${i}`} className={groupIndex % 2 === 0 ? 'bg-white dark:bg-gray-800' : 'bg-gray-50 dark:bg-gray-700'}>
-                                  <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">
-                                    {achievement.description}
-                                  </td>
-                                </tr>
-                              ))}
-                            </tr>
-                          );
-                        });
+                          
+                        // Map each achievement to a table row
+                        return teamAchievements.map((achievement, index) => (
+                          <tr key={`team-${index}`} className={index % 2 === 0 ? 'bg-white dark:bg-gray-800' : 'bg-gray-50 dark:bg-gray-700'}>
+                            <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">{achievement.tournament}</td>
+                            <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">{achievement.date}</td>
+                            <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">{achievement.description}</td>
+                          </tr>
+                        ));
                       })()
                       }
                     </tbody>
