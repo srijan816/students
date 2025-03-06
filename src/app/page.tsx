@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-import type { StylesConfig, GroupBase, ActionMeta } from 'react-select';
+import type { StylesConfig, GroupBase } from 'react-select';
 
 // Import the JSON directly for initial render
 import studentsData from '../../data/students.json';
@@ -105,7 +105,7 @@ export default function Home() {
             }}
             placeholder="Search for a student..."
             isClearable
-            styles={customStyles}
+            styles={customStyles as unknown as StylesConfig<unknown, boolean, GroupBase<unknown>>}
             className="mb-4"
           />
         </div>
