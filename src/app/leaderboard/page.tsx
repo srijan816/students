@@ -26,6 +26,11 @@ interface LeaderboardEntry {
   };
   totalPoints: number;
   breakdown: PointBreakdown[];
+  positionChange?: number | null;
+  isNew?: boolean;
+  previousRank?: number;
+  previousPoints?: number;
+  pointsGained?: number;
 }
 
 // Convert plural team achievement names to singular
@@ -69,6 +74,7 @@ export default function LeaderboardPage() {
   const [filterSchool, setFilterSchool] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
+  const [hasHistoricalData, setHasHistoricalData] = useState(false);
   const itemsPerPage = 10;
 
   useEffect(() => {
@@ -77,11 +83,12 @@ export default function LeaderboardPage() {
 
   const fetchLeaderboard = async () => {
     try {
-      const response = await fetch('/api/leaderboard?limit=50');
+      const response = await fetch('/api/leaderboard?limit=50&includeHistory=true');
       const result = await response.json();
       
       if (result.success) {
         setLeaderboard(result.data.leaderboard);
+        setHasHistoricalData(result.data.hasPositionChanges || false);
       }
     } catch (error) {
       console.error('Error fetching leaderboard:', error);
@@ -125,6 +132,46 @@ export default function LeaderboardPage() {
     return "bg-gradient-to-r from-gray-100 to-gray-300 text-gray-700";
   };
 
+  const renderPositionChange = (entry: LeaderboardEntry) => {
+    if (entry.isNew) {
+      return (
+        <span className="inline-flex items-center justify-center px-2 py-1 text-xs font-medium bg-blue-100 text-blue-700 rounded-full">
+          NEW
+        </span>
+      );
+    }
+
+    if (entry.positionChange === null || entry.positionChange === undefined) {
+      return <span className="text-gray-400">—</span>;
+    }
+
+    if (entry.positionChange === 0) {
+      return <span className="text-gray-500">—</span>;
+    }
+
+    if (entry.positionChange > 0) {
+      // Moved up (green arrow)
+      return (
+        <div className="flex items-center justify-center gap-1">
+          <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+          </svg>
+          <span className="text-sm font-medium text-green-600">{entry.positionChange}</span>
+        </div>
+      );
+    }
+
+    // Moved down (red arrow)
+    return (
+      <div className="flex items-center justify-center gap-1">
+        <svg className="w-4 h-4 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+        <span className="text-sm font-medium text-red-600">{Math.abs(entry.positionChange)}</span>
+      </div>
+    );
+  };
+
   return (
     <div className="min-h-screen bg-gray-50/50 p-4 lg:p-8">
       <div className="max-w-7xl mx-auto space-y-8">
@@ -143,6 +190,14 @@ export default function LeaderboardPage() {
             <p className="text-lg text-muted-foreground mt-2">
               Top 50 debaters ranked by achievement points • Showing {paginatedLeaderboard.length} of {filteredLeaderboard.length} debaters
             </p>
+            {hasHistoricalData && (
+              <p className="text-sm text-muted-foreground mt-1 flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                </svg>
+                Position changes compared to last week
+              </p>
+            )}
           </div>
         </div>
 
@@ -181,8 +236,34 @@ export default function LeaderboardPage() {
         {/* Leaderboard Table */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-xl">Rankings</CardTitle>
-            <CardDescription>Click on "View Details" to see the complete breakdown of points</CardDescription>
+            <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+              <div>
+                <CardTitle className="text-xl">Rankings</CardTitle>
+                <CardDescription>Click on "View Details" to see the complete breakdown of points</CardDescription>
+              </div>
+              {hasHistoricalData && (
+                <div className="flex items-center gap-4 text-sm">
+                  <div className="flex items-center gap-1">
+                    <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+                    </svg>
+                    <span className="text-muted-foreground">Moved up</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <svg className="w-4 h-4 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                    <span className="text-muted-foreground">Moved down</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <span className="inline-flex items-center justify-center px-2 py-1 text-xs font-medium bg-blue-100 text-blue-700 rounded-full">
+                      NEW
+                    </span>
+                    <span className="text-muted-foreground">New entry</span>
+                  </div>
+                </div>
+              )}
+            </div>
           </CardHeader>
           <CardContent className="p-0">
             <div className="overflow-x-auto">
@@ -190,6 +271,7 @@ export default function LeaderboardPage() {
                 <TableHeader>
                   <TableRow className="bg-muted/50">
                     <TableHead className="w-20 text-center">Rank</TableHead>
+                    <TableHead className="w-16 text-center">Change</TableHead>
                     <TableHead className="min-w-[200px]">Debater</TableHead>
                     <TableHead className="min-w-[120px]">School</TableHead>
                     <TableHead className="w-32 text-center">Points</TableHead>
@@ -204,6 +286,9 @@ export default function LeaderboardPage() {
                           {entry.rank}
                         </div>
                       </TableCell>
+                      <TableCell className="text-center">
+                        {renderPositionChange(entry)}
+                      </TableCell>
                       <TableCell>
                         <div className="font-semibold text-base">{entry.student.name}</div>
                       </TableCell>
@@ -212,6 +297,9 @@ export default function LeaderboardPage() {
                       </TableCell>
                       <TableCell className="text-center">
                         <div className="font-bold text-xl text-primary">{entry.totalPoints}</div>
+                        {entry.pointsGained !== undefined && entry.pointsGained > 0 && (
+                          <div className="text-xs text-green-600">+{entry.pointsGained} pts</div>
+                        )}
                       </TableCell>
                       <TableCell className="text-center">
                         <Dialog>
@@ -230,6 +318,11 @@ export default function LeaderboardPage() {
                               </DialogTitle>
                               <div className="text-sm font-medium text-gray-700 dark:text-gray-300">
                                 {entry.student.school} • Total Points: <span className="font-bold text-gray-900 dark:text-gray-100">{entry.totalPoints}</span>
+                                {entry.previousRank && (
+                                  <span className="ml-2 text-xs">
+                                    (Previously #{entry.previousRank})
+                                  </span>
+                                )}
                               </div>
                             </DialogHeader>
                             

@@ -1,0 +1,624 @@
+{
+  "date": "2025-06-14T16:00:00.000Z",
+  "timestamp": "2025-06-18T14:43:16.949Z",
+  "leaderboard": [
+    {
+      "studentName": "Tony S.",
+      "school": "CIS",
+      "rank": 1,
+      "totalPoints": 239
+    },
+    {
+      "studentName": "Aiden T.",
+      "school": "CIS",
+      "rank": 2,
+      "totalPoints": 200
+    },
+    {
+      "studentName": "Pacey Q.",
+      "school": "DCB",
+      "rank": 3,
+      "totalPoints": 181
+    },
+    {
+      "studentName": "Yeonseo K.",
+      "school": "GSIS",
+      "rank": 4,
+      "totalPoints": 178
+    },
+    {
+      "studentName": "Alexander B.",
+      "school": "TA",
+      "rank": 5,
+      "totalPoints": 164
+    },
+    {
+      "studentName": "Anson C.",
+      "school": "DGS",
+      "rank": 6,
+      "totalPoints": 140
+    },
+    {
+      "studentName": "Zhe-Hong W.",
+      "school": "HKIS",
+      "rank": 6,
+      "totalPoints": 140
+    },
+    {
+      "studentName": "Moses L.",
+      "school": "CIS",
+      "rank": 8,
+      "totalPoints": 138
+    },
+    {
+      "studentName": "Nick S.",
+      "school": "CIS",
+      "rank": 9,
+      "totalPoints": 115
+    },
+    {
+      "studentName": "Mollie M.",
+      "school": "HKIS",
+      "rank": 10,
+      "totalPoints": 109
+    },
+    {
+      "studentName": "Samuel K.",
+      "school": "CIS",
+      "rank": 10,
+      "totalPoints": 109
+    },
+    {
+      "studentName": "Gemma Y.",
+      "school": "KGV",
+      "rank": 12,
+      "totalPoints": 96
+    },
+    {
+      "studentName": "Bella L.",
+      "school": "CIS",
+      "rank": 13,
+      "totalPoints": 95
+    },
+    {
+      "studentName": "Catherine H.",
+      "school": "CIS",
+      "rank": 14,
+      "totalPoints": 91
+    },
+    {
+      "studentName": "Adam P.",
+      "school": "CIS",
+      "rank": 15,
+      "totalPoints": 88
+    },
+    {
+      "studentName": "Emi R.",
+      "school": "CIS",
+      "rank": 15,
+      "totalPoints": 88
+    },
+    {
+      "studentName": "Gigi C.",
+      "school": "DGS",
+      "rank": 17,
+      "totalPoints": 86
+    },
+    {
+      "studentName": "Riya P.",
+      "school": "STC",
+      "rank": 17,
+      "totalPoints": 86
+    },
+    {
+      "studentName": "Jodie L.",
+      "school": "IS",
+      "rank": 19,
+      "totalPoints": 83
+    },
+    {
+      "studentName": "Shi Qi O.",
+      "school": "CIS",
+      "rank": 20,
+      "totalPoints": 81
+    },
+    {
+      "studentName": "Hanna Z.",
+      "school": "HKIS",
+      "rank": 21,
+      "totalPoints": 80
+    },
+    {
+      "studentName": "Jonathan H.",
+      "school": "DBS",
+      "rank": 21,
+      "totalPoints": 80
+    },
+    {
+      "studentName": "Yifu X.",
+      "school": "BCIS",
+      "rank": 23,
+      "totalPoints": 76
+    },
+    {
+      "studentName": "Seungmin K.",
+      "school": "HKIS",
+      "rank": 24,
+      "totalPoints": 70
+    },
+    {
+      "studentName": "Valerie C.",
+      "school": "KGV",
+      "rank": 24,
+      "totalPoints": 70
+    },
+    {
+      "studentName": "Hayley Y.",
+      "school": "DGS",
+      "rank": 26,
+      "totalPoints": 69
+    },
+    {
+      "studentName": "Ivy X.",
+      "school": "GSIS",
+      "rank": 26,
+      "totalPoints": 69
+    },
+    {
+      "studentName": "Jeffrey S.",
+      "school": "WIS",
+      "rank": 28,
+      "totalPoints": 67
+    },
+    {
+      "studentName": "Junyang L.",
+      "school": "CIS",
+      "rank": 29,
+      "totalPoints": 66
+    },
+    {
+      "studentName": "Adrian W.",
+      "school": "HKIS",
+      "rank": 30,
+      "totalPoints": 58
+    },
+    {
+      "studentName": "Annabel C.",
+      "school": "ISF",
+      "rank": 31,
+      "totalPoints": 56
+    },
+    {
+      "studentName": "Evelyn W.",
+      "school": "KGV",
+      "rank": 32,
+      "totalPoints": 52
+    },
+    {
+      "studentName": "Hisham K.",
+      "school": "HKIS",
+      "rank": 33,
+      "totalPoints": 50
+    },
+    {
+      "studentName": "Ryan Q.",
+      "school": "HKIS",
+      "rank": 33,
+      "totalPoints": 50
+    },
+    {
+      "studentName": "Sarah C.",
+      "school": "HKIS",
+      "rank": 35,
+      "totalPoints": 47
+    },
+    {
+      "studentName": "Jimi F.",
+      "school": "CIS",
+      "rank": 36,
+      "totalPoints": 45
+    },
+    {
+      "studentName": "Lincoln L.",
+      "school": "CIS",
+      "rank": 36,
+      "totalPoints": 45
+    },
+    {
+      "studentName": "Ann S.",
+      "school": "CIS",
+      "rank": 38,
+      "totalPoints": 40
+    },
+    {
+      "studentName": "Audrey L.",
+      "school": "HKIS",
+      "rank": 38,
+      "totalPoints": 40
+    },
+    {
+      "studentName": "Emma D.",
+      "school": "CIS",
+      "rank": 38,
+      "totalPoints": 40
+    },
+    {
+      "studentName": "Samaira S.",
+      "school": "HKIS",
+      "rank": 41,
+      "totalPoints": 34
+    },
+    {
+      "studentName": "Alicia Z.",
+      "school": "FIS",
+      "rank": 42,
+      "totalPoints": 32
+    },
+    {
+      "studentName": "Kelly A.",
+      "school": "SPCC",
+      "rank": 43,
+      "totalPoints": 31
+    },
+    {
+      "studentName": "Luke S.",
+      "school": "CIS",
+      "rank": 43,
+      "totalPoints": 31
+    },
+    {
+      "studentName": "Angela R.",
+      "school": "CIS",
+      "rank": 45,
+      "totalPoints": 30
+    },
+    {
+      "studentName": "Ethan G.",
+      "school": "CIS",
+      "rank": 45,
+      "totalPoints": 30
+    },
+    {
+      "studentName": "Ethan H.",
+      "school": "HKIS",
+      "rank": 45,
+      "totalPoints": 30
+    },
+    {
+      "studentName": "Zechariah C.",
+      "school": "DCB",
+      "rank": 45,
+      "totalPoints": 30
+    },
+    {
+      "studentName": "Dana C.",
+      "school": "CIS",
+      "rank": 49,
+      "totalPoints": 29
+    },
+    {
+      "studentName": "Gwyneth C.",
+      "school": "DGS",
+      "rank": 49,
+      "totalPoints": 29
+    },
+    {
+      "studentName": "Jasmine G.",
+      "school": "ISB",
+      "rank": 51,
+      "totalPoints": 27
+    },
+    {
+      "studentName": "Alissa M.",
+      "school": "VSA",
+      "rank": 52,
+      "totalPoints": 25
+    },
+    {
+      "studentName": "Hanson K.",
+      "school": "DBS",
+      "rank": 52,
+      "totalPoints": 25
+    },
+    {
+      "studentName": "Michele L.",
+      "school": "CIS",
+      "rank": 52,
+      "totalPoints": 25
+    },
+    {
+      "studentName": "Vir K.",
+      "school": "SAS",
+      "rank": 52,
+      "totalPoints": 25
+    },
+    {
+      "studentName": "Chloe W.",
+      "school": "IS",
+      "rank": 56,
+      "totalPoints": 23
+    },
+    {
+      "studentName": "Matias L.",
+      "school": "N/A",
+      "rank": 57,
+      "totalPoints": 22
+    },
+    {
+      "studentName": "Andrew M.",
+      "school": "DBS",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Chester T.",
+      "school": "GSIS",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Cyrus Y.",
+      "school": "DBS",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Dominic G.",
+      "school": "CIS",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Isabella Z.",
+      "school": "BNDS",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Jehanne H.",
+      "school": "IS",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Kevin H.",
+      "school": "ISF",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Marcus L.",
+      "school": "DBS",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Michelle Z.",
+      "school": "SIS",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Nelson B.",
+      "school": "CIS",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Novice Champion: Hanna Z.",
+      "school": "HKIS",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Novice Semifinalist: Luke S.",
+      "school": "CIS",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Rose W.",
+      "school": "GSIS",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Shawn N.",
+      "school": "SPCC",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Theo L.",
+      "school": "PLKCKYS",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Valerie C.",
+      "school": "SMCC",
+      "rank": 58,
+      "totalPoints": 20
+    },
+    {
+      "studentName": "Charles W.",
+      "school": "HKIS",
+      "rank": 74,
+      "totalPoints": 19
+    },
+    {
+      "studentName": "Henry C.",
+      "school": "VSA",
+      "rank": 75,
+      "totalPoints": 18
+    },
+    {
+      "studentName": "Max L.",
+      "school": "DBS",
+      "rank": 76,
+      "totalPoints": 16
+    },
+    {
+      "studentName": "Anders P.",
+      "school": "HKIS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Boris C.",
+      "school": "HKIS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Charlotte W.",
+      "school": "CIS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Daryl N.",
+      "school": "DBS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Edna C.",
+      "school": "SIS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Ellie F.",
+      "school": "SPCS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Emi V.",
+      "school": "GSIS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Ethan C.",
+      "school": "HKIS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Ethan W.",
+      "school": "DBS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Giselle Y.",
+      "school": "MSS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Hailey L.",
+      "school": "SSCPS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Jacky X.",
+      "school": "GSIS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Jake I.",
+      "school": "DBS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Lilianna P.",
+      "school": "SPCC",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Maddie P.",
+      "school": "CIS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Megan Z.",
+      "school": "KGV",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Nicole Y.",
+      "school": "CIS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Renee Y.",
+      "school": "ICS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Sean W.",
+      "school": "QBS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Theodore W.",
+      "school": "HKIS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Torres L.",
+      "school": "FIS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Vincy L.",
+      "school": "IS",
+      "rank": 77,
+      "totalPoints": 15
+    },
+    {
+      "studentName": "Joanne L.",
+      "school": "DGS",
+      "rank": 99,
+      "totalPoints": 10
+    },
+    {
+      "studentName": "Monique S.",
+      "school": "CIS",
+      "rank": 99,
+      "totalPoints": 10
+    },
+    {
+      "studentName": "Cecilia L.",
+      "school": "BISG",
+      "rank": 101,
+      "totalPoints": 9
+    },
+    {
+      "studentName": "Peyton Q.",
+      "school": "HKIS",
+      "rank": 102,
+      "totalPoints": 7
+    },
+    {
+      "studentName": "Nathalie N.",
+      "school": "HISHK",
+      "rank": 103,
+      "totalPoints": 6
+    }
+  ]
+}

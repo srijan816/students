@@ -41,7 +41,14 @@ npm run lint
 ### Data Processing Scripts
 - `scripts/convert-excel-to-json.js` - Converts Excel to JSON format
 - `scripts/generate-json.js` - Alternative JSON generator
-- `utils/excelConverter.js` - Core Excel conversion logic
+- `src/utils/excelConverter.js` - Core Excel conversion logic
+
+### Utility Files (src/utils/)
+- `leaderboardHistory.js` - Manages weekly snapshots and position change tracking
+- `leaderboardScoring.js` - Core scoring logic for achievements
+- `excelConverter.js` - Excel file processing utilities
+
+**Note**: All utility files are consolidated in `src/utils/` and accessed via `@/utils/` import alias.
 
 ## Important Notes
 

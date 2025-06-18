@@ -1,6 +1,11 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { 
+  saveLeaderboardSnapshot, 
+  getPreviousSnapshot, 
+  calculatePositionChanges 
+} from '@/utils/leaderboardHistory.js';
 
 export const dynamic = 'force-dynamic';
 
@@ -216,19 +221,35 @@ export async function GET(request) {
     // Generate leaderboard
     const leaderboard = generateLeaderboard(studentsData);
     
+    // Save snapshot (automatically handles weekly scheduling)
+    await saveLeaderboardSnapshot(leaderboard);
+    
+    // Get previous snapshot and calculate position changes
+    const previousSnapshot = getPreviousSnapshot();
+    const leaderboardWithChanges = calculatePositionChanges(leaderboard, previousSnapshot);
+    
     // Get top 20 by default, or all if specified
     const { searchParams } = new URL(request.url);
     const limit = searchParams.get('limit') || 20;
-    const topDebaters = limit === 'all' ? leaderboard : leaderboard.slice(0, parseInt(limit));
+    const includeHistory = searchParams.get('includeHistory') === 'true';
+    const topDebaters = limit === 'all' ? leaderboardWithChanges : leaderboardWithChanges.slice(0, parseInt(limit));
     
-    return NextResponse.json({
+    const responseData = {
       success: true,
       data: {
-        leaderboard: topDebaters,
+        leaderboard: includeHistory ? topDebaters : topDebaters.map(({ positionChange, isNew, previousRank, previousPoints, pointsGained, ...rest }) => rest),
         totalDebaters: leaderboard.length,
         lastUpdated: new Date().toISOString()
       }
-    });
+    };
+    
+    // Include history data if requested
+    if (includeHistory) {
+      responseData.data.previousSnapshotDate = previousSnapshot?.date || null;
+      responseData.data.hasPositionChanges = previousSnapshot !== null;
+    }
+    
+    return NextResponse.json(responseData);
   } catch (error) {
     console.error('Error generating leaderboard:', error);
     return NextResponse.json({
