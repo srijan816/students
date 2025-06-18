@@ -185,31 +185,31 @@ export default function LeaderboardPage() {
                               View Details
                             </Button>
                           </DialogTrigger>
-                          <DialogContent className="max-w-4xl max-h-[85vh] overflow-y-auto">
+                          <DialogContent className="max-w-4xl max-h-[85vh] overflow-y-auto bg-white dark:bg-gray-950">
                             <DialogHeader>
-                              <DialogTitle className="text-2xl flex items-center gap-3 text-foreground">
+                              <DialogTitle className="text-2xl flex items-center gap-3 text-gray-900 dark:text-gray-100">
                                 <div className={`inline-flex items-center justify-center w-8 h-8 rounded-full font-bold text-sm ${getRankBadgeColor(entry.rank)}`}>
                                   {entry.rank}
                                 </div>
                                 {entry.student.name}
                               </DialogTitle>
-                              <div className="text-sm font-medium text-gray-600 dark:text-gray-400">
-                                {entry.student.school} • Total Points: <span className="font-bold text-foreground">{entry.totalPoints}</span>
+                              <div className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                                {entry.student.school} • Total Points: <span className="font-bold text-gray-900 dark:text-gray-100">{entry.totalPoints}</span>
                               </div>
                             </DialogHeader>
                             
                             <div className="space-y-6 mt-6">
                               {/* Achievements Breakdown */}
                               <div>
-                                <h3 className="text-lg font-semibold mb-4 text-foreground">Achievement Breakdown</h3>
+                                <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">Achievement Breakdown</h3>
                                 <div className="space-y-3">
                                   {entry.breakdown.map((item, i) => (
-                                    <Card key={i} className="border-l-4 border-l-primary bg-white dark:bg-gray-900">
+                                    <Card key={i} className="border-l-4 border-l-blue-500 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700">
                                       <CardContent className="pt-4">
                                         <div className="flex justify-between items-start gap-4">
                                           <div className="flex-1 min-w-0">
-                                            <div className="font-semibold text-base mb-1 text-foreground">{item.achievement}</div>
-                                            <div className="text-sm text-gray-600 dark:text-gray-400">
+                                            <div className="font-semibold text-base mb-1 text-gray-900 dark:text-gray-100">{item.achievement}</div>
+                                            <div className="text-sm text-gray-700 dark:text-gray-300">
                                               {item.tournament} • {item.date}
                                             </div>
                                             <div className="inline-flex items-center gap-2 mt-2">
