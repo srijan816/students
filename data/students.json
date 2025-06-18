@@ -1,8 +1,7 @@
 {
   "students": [
     {
-      "first_name": "Adam",
-      "last_initial": "P.",
+      "name": "Adam P.",
       "school": "CIS",
       "achievements": [
         {
@@ -38,10 +37,21 @@
       ]
     },
     {
-      "first_name": "Adrian",
-      "last_initial": "W.",
-      "school": "DBS",
+      "name": "Adrian W.",
+      "school": "HKIS",
       "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Octofinalists"
+        },
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "speaker",
+          "description": "10th Best"
+        },
         {
           "tournament": "Novice WSDC 2025",
           "date": "Feb 22-23, 2025",
@@ -75,10 +85,21 @@
       ]
     },
     {
-      "first_name": "Aiden",
-      "last_initial": "T.",
+      "name": "Aiden T.",
       "school": "CIS",
       "achievements": [
+        {
+          "tournament": "South Asian Schools Debating Championship 2025",
+          "date": "June 6-8, 2025",
+          "type": "team",
+          "description": "Octofinalists"
+        },
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        },
         {
           "tournament": "Asian Online Debating Championship WSDC 2025",
           "date": "Feb 7-9, 2025",
@@ -190,8 +211,7 @@
       ]
     },
     {
-      "first_name": "Alexander",
-      "last_initial": "B.",
+      "name": "Alexander B.",
       "school": "TA",
       "achievements": [
         {
@@ -287,8 +307,7 @@
       ]
     },
     {
-      "first_name": "Alicia",
-      "last_initial": "Z.",
+      "name": "Alicia Z.",
       "school": "FIS",
       "achievements": [
         {
@@ -318,10 +337,15 @@
       ]
     },
     {
-      "first_name": "Alissa",
-      "last_initial": "M.",
+      "name": "Alissa M.",
       "school": "VSA",
       "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Octofinalists"
+        },
         {
           "tournament": "Asian Online Debating Championship WSDC 2025",
           "date": "Feb 7-9, 2025",
@@ -331,8 +355,7 @@
       ]
     },
     {
-      "first_name": "Anders",
-      "last_initial": "P.",
+      "name": "Anders P.",
       "school": "HKIS",
       "achievements": [
         {
@@ -344,8 +367,19 @@
       ]
     },
     {
-      "first_name": "Angela",
-      "last_initial": "R.",
+      "name": "Andrew M.",
+      "school": "DBS",
+      "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Semifinalists"
+        }
+      ]
+    },
+    {
+      "name": "Angela R.",
       "school": "CIS",
       "achievements": [
         {
@@ -357,10 +391,15 @@
       ]
     },
     {
-      "first_name": "Ann",
-      "last_initial": "S.",
+      "name": "Ann S.",
       "school": "CIS",
       "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        },
         {
           "tournament": "Guangdong Debate Challenge 2024",
           "date": "July 13-14, 2024",
@@ -376,8 +415,7 @@
       ]
     },
     {
-      "first_name": "Annabel",
-      "last_initial": "C.",
+      "name": "Annabel C.",
       "school": "ISF",
       "achievements": [
         {
@@ -413,8 +451,7 @@
       ]
     },
     {
-      "first_name": "Anson",
-      "last_initial": "C.",
+      "name": "Anson C.",
       "school": "DGS",
       "achievements": [
         {
@@ -516,8 +553,7 @@
       ]
     },
     {
-      "first_name": "Audrey",
-      "last_initial": "L.",
+      "name": "Audrey L.",
       "school": "HKIS",
       "achievements": [
         {
@@ -553,10 +589,27 @@
       ]
     },
     {
-      "first_name": "Bella",
-      "last_initial": "L.",
+      "name": "Bella L.",
       "school": "CIS",
       "achievements": [
+        {
+          "tournament": "South Asian Schools Debating Championship 2025",
+          "date": "June 6-8, 2025",
+          "type": "team",
+          "description": "Octofinalists"
+        },
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "team",
+          "description": "Open Finalists"
+        },
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "speaker",
+          "description": "Open 5th Best"
+        },
         {
           "tournament": "Hong Kong Debate Open 2024",
           "date": "Dec 13-15, 2024",
@@ -590,8 +643,7 @@
       ]
     },
     {
-      "first_name": "Boris",
-      "last_initial": "C.",
+      "name": "Boris C.",
       "school": "HKIS",
       "achievements": [
         {
@@ -603,8 +655,7 @@
       ]
     },
     {
-      "first_name": "Catherine",
-      "last_initial": "H.",
+      "name": "Catherine H.",
       "school": "CIS",
       "achievements": [
         {
@@ -640,8 +691,7 @@
       ]
     },
     {
-      "first_name": "Cecilia",
-      "last_initial": "L.",
+      "name": "Cecilia L.",
       "school": "BISG",
       "achievements": [
         {
@@ -665,10 +715,39 @@
       ]
     },
     {
-      "first_name": "Charles",
-      "last_initial": "W.",
+      "name": "Champion: Mollie M.",
       "school": "HKIS",
       "achievements": [
+        {
+          "tournament": "HK Senior Schools Debating Championships 2024",
+          "date": "Oct 12-13, 2024",
+          "type": "team",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Champion: Yeonseo K.",
+      "school": "GSIS",
+      "achievements": [
+        {
+          "tournament": "Asia Junior BP 2025",
+          "date": "Jan 4-5, 2025",
+          "type": "team",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Charles W.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Rookie WSDC 2025",
+          "date": "March 22–23",
+          "type": "speaker",
+          "description": "7th Best"
+        },
         {
           "tournament": "Everest International World Schools Debating Championship 2024",
           "date": "June 21-23, 2024",
@@ -678,8 +757,7 @@
       ]
     },
     {
-      "first_name": "Charlotte",
-      "last_initial": "W.",
+      "name": "Charlotte W.",
       "school": "CIS",
       "achievements": [
         {
@@ -691,8 +769,19 @@
       ]
     },
     {
-      "first_name": "Chloe",
-      "last_initial": "W.",
+      "name": "Chester T.",
+      "school": "GSIS",
+      "achievements": [
+        {
+          "tournament": "Rookie WSDC 2025",
+          "date": "March 22–23",
+          "type": "team",
+          "description": "Semifinalists"
+        }
+      ]
+    },
+    {
+      "name": "Chloe W.",
       "school": "IS",
       "achievements": [
         {
@@ -716,8 +805,55 @@
       ]
     },
     {
-      "first_name": "Dominic",
-      "last_initial": "G.",
+      "name": "Cyrus Y.",
+      "school": "DBS",
+      "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Semifinalists"
+        }
+      ]
+    },
+    {
+      "name": "Dana C.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "team",
+          "description": "Open Semifinalists"
+        },
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "speaker",
+          "description": "Open 9th Best"
+        },
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "speaker",
+          "description": "U-15 4th Best"
+        }
+      ]
+    },
+    {
+      "name": "Daryl N.",
+      "school": "DBS",
+      "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        }
+      ]
+    },
+    {
+      "name": "Dominic G.",
       "school": "CIS",
       "achievements": [
         {
@@ -729,8 +865,7 @@
       ]
     },
     {
-      "first_name": "Edna",
-      "last_initial": "C.",
+      "name": "Edna C.",
       "school": "SIS",
       "achievements": [
         {
@@ -742,8 +877,7 @@
       ]
     },
     {
-      "first_name": "Ellie",
-      "last_initial": "F.",
+      "name": "Ellie F.",
       "school": "SPCS",
       "achievements": [
         {
@@ -755,10 +889,27 @@
       ]
     },
     {
-      "first_name": "Emi",
-      "last_initial": "R.",
+      "name": "Emi R.",
       "school": "CIS",
       "achievements": [
+        {
+          "tournament": "South Asian Schools Debating Championship 2025",
+          "date": "June 6-8, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        },
+        {
+          "tournament": "South Asian Schools Debating Championship 2025",
+          "date": "June 6-8, 2025",
+          "type": "speaker",
+          "description": "Overall 5th Best"
+        },
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        },
         {
           "tournament": "CABP North Asia",
           "date": "Jan 11-12, 2025",
@@ -792,8 +943,7 @@
       ]
     },
     {
-      "first_name": "Emi",
-      "last_initial": "V.",
+      "name": "Emi V.",
       "school": "GSIS",
       "achievements": [
         {
@@ -811,8 +961,7 @@
       ]
     },
     {
-      "first_name": "Emma",
-      "last_initial": "D.",
+      "name": "Emma D.",
       "school": "CIS",
       "achievements": [
         {
@@ -830,8 +979,7 @@
       ]
     },
     {
-      "first_name": "Ethan",
-      "last_initial": "C.",
+      "name": "Ethan C.",
       "school": "HKIS",
       "achievements": [
         {
@@ -843,8 +991,7 @@
       ]
     },
     {
-      "first_name": "Ethan",
-      "last_initial": "G.",
+      "name": "Ethan G.",
       "school": "CIS",
       "achievements": [
         {
@@ -862,8 +1009,7 @@
       ]
     },
     {
-      "first_name": "Ethan",
-      "last_initial": "H.",
+      "name": "Ethan H.",
       "school": "HKIS",
       "achievements": [
         {
@@ -875,8 +1021,19 @@
       ]
     },
     {
-      "first_name": "Evelyn",
-      "last_initial": "W.",
+      "name": "Ethan W.",
+      "school": "DBS",
+      "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        }
+      ]
+    },
+    {
+      "name": "Evelyn W.",
       "school": "KGV",
       "achievements": [
         {
@@ -906,10 +1063,51 @@
       ]
     },
     {
-      "first_name": "Gemma",
-      "last_initial": "Y.",
+      "name": "Gemma Y.",
       "school": "KGV",
       "achievements": [
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "team",
+          "description": "Open Semifinalists"
+        },
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "speaker",
+          "description": "Open 4th Best"
+        },
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "speaker",
+          "description": "U-15 2nd Best"
+        },
+        {
+          "tournament": "Rookie WSDC 2025",
+          "date": "March 22–23",
+          "type": "team",
+          "description": "Semifinalists"
+        },
+        {
+          "tournament": "Rookie WSDC 2025",
+          "date": "March 22–23",
+          "type": "speaker",
+          "description": "13th Best"
+        },
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Octofinalists"
+        },
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "speaker",
+          "description": "13th Best"
+        },
         {
           "tournament": "Everest International World Schools Debating Championship 2024",
           "date": "June 21-23, 2024",
@@ -925,8 +1123,7 @@
       ]
     },
     {
-      "first_name": "Gigi",
-      "last_initial": "C.",
+      "name": "Gigi C.",
       "school": "DGS",
       "achievements": [
         {
@@ -986,8 +1183,7 @@
       ]
     },
     {
-      "first_name": "Giselle",
-      "last_initial": "Y.",
+      "name": "Giselle Y.",
       "school": "MSS",
       "achievements": [
         {
@@ -999,8 +1195,43 @@
       ]
     },
     {
-      "first_name": "Hailey",
-      "last_initial": "L.",
+      "name": "Gwyneth C.",
+      "school": "DGS",
+      "achievements": [
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "team",
+          "description": "Open Finalists"
+        },
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "speaker",
+          "description": "Open 9th Best"
+        },
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "speaker",
+          "description": "U-15 4th Best"
+        },
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Octofinalists"
+        },
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "speaker",
+          "description": "OBS"
+        }
+      ]
+    },
+    {
+      "name": "Hailey L.",
       "school": "SSCPS",
       "achievements": [
         {
@@ -1012,10 +1243,21 @@
       ]
     },
     {
-      "first_name": "Hanna",
-      "last_initial": "Z.",
+      "name": "Hanna Z.",
       "school": "HKIS",
       "achievements": [
+        {
+          "tournament": "Rookie WSDC 2025",
+          "date": "March 22–23",
+          "type": "team",
+          "description": "Semifinalists"
+        },
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Octofinalists"
+        },
         {
           "tournament": "Novice WSDC 2025",
           "date": "Feb 22-23, 2025",
@@ -1031,8 +1273,25 @@
       ]
     },
     {
-      "first_name": "Hayley",
-      "last_initial": "Y.",
+      "name": "Hanson K.",
+      "school": "DBS",
+      "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Semifinalists"
+        },
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "speaker",
+          "description": "6th Best"
+        }
+      ]
+    },
+    {
+      "name": "Hayley Y.",
       "school": "DGS",
       "achievements": [
         {
@@ -1098,8 +1357,7 @@
       ]
     },
     {
-      "first_name": "Henry",
-      "last_initial": "C.",
+      "name": "Henry C.",
       "school": "VSA",
       "achievements": [
         {
@@ -1117,8 +1375,19 @@
       ]
     },
     {
-      "first_name": "Hisham",
-      "last_initial": "K.",
+      "name": "High School Finals: Mollie M.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Shanghai International Debate Open 2024",
+          "date": "March 29-31, 2024",
+          "type": "team",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Hisham K.",
       "school": "HKIS",
       "achievements": [
         {
@@ -1136,10 +1405,27 @@
       ]
     },
     {
-      "first_name": "Isabella",
-      "last_initial": "Z.",
+      "name": "Isabella C.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "team",
+          "description": "U-15 Finalist"
+        }
+      ]
+    },
+    {
+      "name": "Isabella Z.",
       "school": "BNDS",
       "achievements": [
+        {
+          "tournament": "International Debate Tournament Ljutomer 2025",
+          "date": "Mar 6-8, 2025",
+          "type": "team",
+          "description": "Semifinalists"
+        },
         {
           "tournament": "Eurasian Schools Debating Championship 2025",
           "date": "Jan 17-20, 2025",
@@ -1155,8 +1441,7 @@
       ]
     },
     {
-      "first_name": "Ivy",
-      "last_initial": "X.",
+      "name": "Ivy X.",
       "school": "GSIS",
       "achievements": [
         {
@@ -1180,8 +1465,7 @@
       ]
     },
     {
-      "first_name": "Jacky",
-      "last_initial": "X.",
+      "name": "Jacky X.",
       "school": "GSIS",
       "achievements": [
         {
@@ -1193,10 +1477,33 @@
       ]
     },
     {
-      "first_name": "Jasmine",
-      "last_initial": "G.",
+      "name": "Jake I.",
+      "school": "DBS",
+      "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        }
+      ]
+    },
+    {
+      "name": "Jasmine G.",
       "school": "ISB",
       "achievements": [
+        {
+          "tournament": "International Debate Tournament Ljutomer 2025",
+          "date": "Mar 6-8, 2025",
+          "type": "team",
+          "description": "Semifinalists"
+        },
+        {
+          "tournament": "International Debate Tournament Ljutomer 2025",
+          "date": "Mar 6-8, 2025",
+          "type": "speaker",
+          "description": "9th Best"
+        },
         {
           "tournament": "Eurasian Schools Debating Championship 2025",
           "date": "Jan 17-20, 2025",
@@ -1218,10 +1525,21 @@
       ]
     },
     {
-      "first_name": "Jeffrey",
-      "last_initial": "S.",
+      "name": "Jeffrey S.",
       "school": "WIS",
       "achievements": [
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "team",
+          "description": "Open Semifinalists"
+        },
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "speaker",
+          "description": "OBS"
+        },
         {
           "tournament": "Asian Online Debating Championship WSDC 2025",
           "date": "Feb 7-9, 2025",
@@ -1243,8 +1561,7 @@
       ]
     },
     {
-      "first_name": "Jehanne",
-      "last_initial": "H.",
+      "name": "Jehanne H.",
       "school": "IS",
       "achievements": [
         {
@@ -1256,8 +1573,7 @@
       ]
     },
     {
-      "first_name": "Jimi",
-      "last_initial": "F.",
+      "name": "Jimi F.",
       "school": "CIS",
       "achievements": [
         {
@@ -1275,10 +1591,39 @@
       ]
     },
     {
-      "first_name": "Jodie",
-      "last_initial": "L.",
+      "name": "Joanne L.",
+      "school": "DGS",
+      "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Octofinalists"
+        }
+      ]
+    },
+    {
+      "name": "Jodie L.",
       "school": "IS",
       "achievements": [
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "team",
+          "description": "Open Semifinalists"
+        },
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "speaker",
+          "description": "Open 3rd Best"
+        },
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "speaker",
+          "description": "U-15 1st Best"
+        },
         {
           "tournament": "South Asia WSDC",
           "date": "Jan 25-26, 2025",
@@ -1294,8 +1639,7 @@
       ]
     },
     {
-      "first_name": "Jonathan",
-      "last_initial": "H.",
+      "name": "Jonathan H.",
       "school": "DBS",
       "achievements": [
         {
@@ -1337,8 +1681,7 @@
       ]
     },
     {
-      "first_name": "Junyang",
-      "last_initial": "L.",
+      "name": "Junyang L.",
       "school": "CIS",
       "achievements": [
         {
@@ -1368,10 +1711,15 @@
       ]
     },
     {
-      "first_name": "Kelly",
-      "last_initial": "A.",
+      "name": "Kelly A.",
       "school": "SPCC",
       "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Champion"
+        },
         {
           "tournament": "HK Junior Schools Debating Championship 2024",
           "date": "March 16-17, 2024",
@@ -1381,8 +1729,7 @@
       ]
     },
     {
-      "first_name": "Kevin",
-      "last_initial": "H.",
+      "name": "Kevin H.",
       "school": "ISF",
       "achievements": [
         {
@@ -1394,8 +1741,7 @@
       ]
     },
     {
-      "first_name": "Lilianna",
-      "last_initial": "P.",
+      "name": "Lilianna P.",
       "school": "SPCC",
       "achievements": [
         {
@@ -1407,8 +1753,7 @@
       ]
     },
     {
-      "first_name": "Lincoln",
-      "last_initial": "L.",
+      "name": "Lincoln L.",
       "school": "CIS",
       "achievements": [
         {
@@ -1438,8 +1783,7 @@
       ]
     },
     {
-      "first_name": "Luke",
-      "last_initial": "S.",
+      "name": "Luke S.",
       "school": "CIS",
       "achievements": [
         {
@@ -1457,8 +1801,7 @@
       ]
     },
     {
-      "first_name": "Maddie",
-      "last_initial": "P.",
+      "name": "Maddie P.",
       "school": "CIS",
       "achievements": [
         {
@@ -1470,8 +1813,7 @@
       ]
     },
     {
-      "first_name": "Marcus",
-      "last_initial": "L.",
+      "name": "Marcus L.",
       "school": "DBS",
       "achievements": [
         {
@@ -1483,8 +1825,7 @@
       ]
     },
     {
-      "first_name": "Matias",
-      "last_initial": "L.",
+      "name": "Matias L.",
       "school": "N/A",
       "achievements": [
         {
@@ -1508,8 +1849,7 @@
       ]
     },
     {
-      "first_name": "Max",
-      "last_initial": "L.",
+      "name": "Max L.",
       "school": "DBS",
       "achievements": [
         {
@@ -1527,8 +1867,7 @@
       ]
     },
     {
-      "first_name": "Megan",
-      "last_initial": "Z.",
+      "name": "Megan Z.",
       "school": "KGV",
       "achievements": [
         {
@@ -1540,8 +1879,7 @@
       ]
     },
     {
-      "first_name": "Michele",
-      "last_initial": "L.",
+      "name": "Michele L.",
       "school": "CIS",
       "achievements": [
         {
@@ -1559,8 +1897,7 @@
       ]
     },
     {
-      "first_name": "Michelle",
-      "last_initial": "Z.",
+      "name": "Michelle Z.",
       "school": "SIS",
       "achievements": [
         {
@@ -1572,8 +1909,7 @@
       ]
     },
     {
-      "first_name": "Mollie",
-      "last_initial": "M.",
+      "name": "Mollie M.",
       "school": "HKIS",
       "achievements": [
         {
@@ -1621,8 +1957,7 @@
       ]
     },
     {
-      "first_name": "Monique",
-      "last_initial": "S.",
+      "name": "Monique S.",
       "school": "CIS",
       "achievements": [
         {
@@ -1634,8 +1969,7 @@
       ]
     },
     {
-      "first_name": "Moses",
-      "last_initial": "L.",
+      "name": "Moses L.",
       "school": "CIS",
       "achievements": [
         {
@@ -1707,8 +2041,7 @@
       ]
     },
     {
-      "first_name": "Nathalie",
-      "last_initial": "N.",
+      "name": "Nathalie N.",
       "school": "HISHK",
       "achievements": [
         {
@@ -1726,8 +2059,7 @@
       ]
     },
     {
-      "first_name": "Nelson",
-      "last_initial": "B.",
+      "name": "Nelson B.",
       "school": "CIS",
       "achievements": [
         {
@@ -1739,8 +2071,7 @@
       ]
     },
     {
-      "first_name": "Nick",
-      "last_initial": "S.",
+      "name": "Nick S.",
       "school": "CIS",
       "achievements": [
         {
@@ -1794,10 +2125,81 @@
       ]
     },
     {
-      "first_name": "Pacey",
-      "last_initial": "Q.",
+      "name": "Nicole Y.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        }
+      ]
+    },
+    {
+      "name": "Novice Champion: Hanna Z.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Junior Semifinalists"
+        }
+      ]
+    },
+    {
+      "name": "Novice Semifinalist: Luke S.",
+      "school": "CIS",
+      "achievements": [
+        {
+          "tournament": "Hong Kong Debate Open 2024",
+          "date": "Dec 13-15, 2024",
+          "type": "team",
+          "description": "Junior Semifinalists"
+        }
+      ]
+    },
+    {
+      "name": "Open Semifinalist: Theodore W.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Gondwana WSDC 2024",
+          "date": "Sept 13-15, 2024",
+          "type": "team",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Open Semis: Evelyn W.",
+      "school": "KGV",
+      "achievements": [
+        {
+          "tournament": "Indian Debate Open 2024",
+          "date": "July 27-28, 2024",
+          "type": "team",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Pacey Q.",
       "school": "DCB",
       "achievements": [
+        {
+          "tournament": "South Asian Schools Debating Championship 2025",
+          "date": "June 6-8, 2025",
+          "type": "team",
+          "description": "Octofinalists"
+        },
+        {
+          "tournament": "South Asian Schools Debating Championship 2025",
+          "date": "June 6-8, 2025",
+          "type": "speaker",
+          "description": "Overall 13th Best"
+        },
         {
           "tournament": "Indo-Pacific Autumn WSDC 2024",
           "date": "Oct 25-27, 2024",
@@ -1885,8 +2287,7 @@
       ]
     },
     {
-      "first_name": "Peyton",
-      "last_initial": "Q.",
+      "name": "Peyton Q.",
       "school": "HKIS",
       "achievements": [
         {
@@ -1898,8 +2299,7 @@
       ]
     },
     {
-      "first_name": "Renee",
-      "last_initial": "Y.",
+      "name": "Renee Y.",
       "school": "ICS",
       "achievements": [
         {
@@ -1911,8 +2311,7 @@
       ]
     },
     {
-      "first_name": "Riya",
-      "last_initial": "P.",
+      "name": "Riya P.",
       "school": "STC",
       "achievements": [
         {
@@ -1948,8 +2347,7 @@
       ]
     },
     {
-      "first_name": "Rose",
-      "last_initial": "W.",
+      "name": "Rose W.",
       "school": "GSIS",
       "achievements": [
         {
@@ -1961,8 +2359,7 @@
       ]
     },
     {
-      "first_name": "Ryan",
-      "last_initial": "Q.",
+      "name": "Ryan Q.",
       "school": "HKIS",
       "achievements": [
         {
@@ -1986,8 +2383,7 @@
       ]
     },
     {
-      "first_name": "Samaira",
-      "last_initial": "S.",
+      "name": "Samaira S.",
       "school": "HKIS",
       "achievements": [
         {
@@ -2005,10 +2401,33 @@
       ]
     },
     {
-      "first_name": "Samuel",
-      "last_initial": "K.",
+      "name": "Samuel K.",
       "school": "CIS",
       "achievements": [
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "team",
+          "description": "Open Semifinalists"
+        },
+        {
+          "tournament": "South Asia Schools BP",
+          "date": "Mar 29-30, 2025",
+          "type": "speaker",
+          "description": "Open 2nd Best"
+        },
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        },
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "speaker",
+          "description": "7th Best"
+        },
         {
           "tournament": "Asian Online Debating Championship WSDC 2025",
           "date": "Feb 7-9, 2025",
@@ -2042,10 +2461,15 @@
       ]
     },
     {
-      "first_name": "Sarah",
-      "last_initial": "C.",
+      "name": "Sarah C.",
       "school": "HKIS",
       "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Octofinalists"
+        },
         {
           "tournament": "Gondwana WSDC 2024",
           "date": "Sept 13-15, 2024",
@@ -2061,8 +2485,7 @@
       ]
     },
     {
-      "first_name": "Sean",
-      "last_initial": "W.",
+      "name": "Sean W.",
       "school": "QBS",
       "achievements": [
         {
@@ -2074,8 +2497,7 @@
       ]
     },
     {
-      "first_name": "Seungmin",
-      "last_initial": "K.",
+      "name": "Seungmin K.",
       "school": "HKIS",
       "achievements": [
         {
@@ -2111,10 +2533,27 @@
       ]
     },
     {
-      "first_name": "Shi",
-      "last_initial": "O.",
+      "name": "Shawn N.",
+      "school": "SPCC",
+      "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Semifinalists"
+        }
+      ]
+    },
+    {
+      "name": "Shi Qi O.",
       "school": "CIS",
       "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        },
         {
           "tournament": "Transpacific WSDC 2024",
           "date": "Oct 4-6, 2024",
@@ -2136,21 +2575,7 @@
       ]
     },
     {
-      "first_name": "Technically,",
-      "last_initial": "S.",
-      "school": "WIS",
-      "achievements": [
-        {
-          "tournament": "Indo-Pacific Autumn WSDC 2024",
-          "date": "Oct 25-27, 2024",
-          "type": "team",
-          "description": "Under-14 Finalist"
-        }
-      ]
-    },
-    {
-      "first_name": "Theo",
-      "last_initial": "L.",
+      "name": "Theo L.",
       "school": "PLKCKYS",
       "achievements": [
         {
@@ -2162,10 +2587,15 @@
       ]
     },
     {
-      "first_name": "Theodore",
-      "last_initial": "W.",
+      "name": "Theodore W.",
       "school": "HKIS",
       "achievements": [
+        {
+          "tournament": "Junior Schools Debating Championships (JSDC)",
+          "date": "Mar 15-16, 2025",
+          "type": "team",
+          "description": "Octofinalists"
+        },
         {
           "tournament": "Gondwana WSDC 2024",
           "date": "Sept 13-15, 2024",
@@ -2175,10 +2605,21 @@
       ]
     },
     {
-      "first_name": "Tony",
-      "last_initial": "S.",
+      "name": "Tony S.",
       "school": "CIS",
       "achievements": [
+        {
+          "tournament": "South Asian Schools Debating Championship 2025",
+          "date": "June 6-8, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        },
+        {
+          "tournament": "South Asian Schools Debating Championship 2025",
+          "date": "June 6-8, 2025",
+          "type": "speaker",
+          "description": "Overall 12th Best"
+        },
         {
           "tournament": "South Asia WSDC",
           "date": "Jan 25-26, 2025",
@@ -2278,8 +2719,7 @@
       ]
     },
     {
-      "first_name": "Torres",
-      "last_initial": "L.",
+      "name": "Torres L.",
       "school": "FIS",
       "achievements": [
         {
@@ -2291,8 +2731,7 @@
       ]
     },
     {
-      "first_name": "Valerie",
-      "last_initial": "C.",
+      "name": "Valerie C.",
       "school": "KGV",
       "achievements": [
         {
@@ -2328,8 +2767,7 @@
       ]
     },
     {
-      "first_name": "Valerie",
-      "last_initial": "C.",
+      "name": "Valerie C.",
       "school": "SMCC",
       "achievements": [
         {
@@ -2341,8 +2779,7 @@
       ]
     },
     {
-      "first_name": "Vincy",
-      "last_initial": "L.",
+      "name": "Vincy L.",
       "school": "IS",
       "achievements": [
         {
@@ -2354,8 +2791,7 @@
       ]
     },
     {
-      "first_name": "Vir",
-      "last_initial": "K.",
+      "name": "Vir K.",
       "school": "SAS",
       "achievements": [
         {
@@ -2373,8 +2809,7 @@
       ]
     },
     {
-      "first_name": "Yeonseo",
-      "last_initial": "K.",
+      "name": "Yeonseo K.",
       "school": "GSIS",
       "achievements": [
         {
@@ -2458,8 +2893,7 @@
       ]
     },
     {
-      "first_name": "Yifu",
-      "last_initial": "X.",
+      "name": "Yifu X.",
       "school": "BCIS",
       "achievements": [
         {
@@ -2501,8 +2935,7 @@
       ]
     },
     {
-      "first_name": "Zechariah",
-      "last_initial": "C.",
+      "name": "Zechariah C.",
       "school": "DCB",
       "achievements": [
         {
@@ -2514,8 +2947,7 @@
       ]
     },
     {
-      "first_name": "Zhe-Hong",
-      "last_initial": "W.",
+      "name": "Zhe-Hong W.",
       "school": "HKIS",
       "achievements": [
         {

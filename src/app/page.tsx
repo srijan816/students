@@ -19,8 +19,7 @@ type Achievement = {
 };
 
 type Student = {
-  first_name: string;
-  last_initial: string;
+  name: string;
   school: string;
   achievements: Achievement[];
 };
@@ -65,7 +64,7 @@ export default function Home() {
 
   const options: SelectOption[] = students.map((student) => ({
     value: student,
-    label: `${student.first_name} ${student.last_initial} (${student.school})`,
+    label: `${student.name} (${student.school})`,
   }));
 
   // Define types for the Select component styles with explicit typing
@@ -93,6 +92,11 @@ export default function Home() {
           <h1 className="text-3xl font-bold mb-4">Debate Achievements</h1>
           <p className="text-gray-600 dark:text-gray-300">Enter a student&apos;s name to view their achievements</p>
           {loading && <p className="text-blue-500 mt-2">Loading latest student data...</p>}
+          <div className="mt-4">
+            <a href="/leaderboard" className="inline-block px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              View Leaderboard →
+            </a>
+          </div>
         </div>
         
         <div className="mb-10">
@@ -113,7 +117,7 @@ export default function Home() {
         {selectedStudent && (
           <div className="w-full border rounded-lg p-4 bg-white dark:bg-gray-800 shadow-md">
             <h2 className="text-2xl font-semibold mb-4 text-center">
-              Achievements for {selectedStudent.first_name} {selectedStudent.last_initial} ({selectedStudent.school})
+              Achievements for {selectedStudent.name} ({selectedStudent.school})
             </h2>
             
             {selectedStudent.achievements.length > 0 ? (

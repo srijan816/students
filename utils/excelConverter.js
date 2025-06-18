@@ -1,7 +1,7 @@
 // Excel conversion utility
-const xlsx = require('xlsx');
-const fs = require('fs');
-const path = require('path');
+import xlsx from 'xlsx';
+import fs from 'fs';
+import path from 'path';
 
 /**
  * Converts Excel data to JSON and saves it to the data directory
@@ -27,22 +27,14 @@ function convertExcelToJson() {
 
   // Function to add a student to the map
   function addOrGetStudent(name, school) {
-    // Extract first name and last initial
-    const nameParts = name.trim().split(' ');
-    let firstName = nameParts[0];
-    let lastInitial = '';
-    
-    if (nameParts.length > 1) {
-      lastInitial = nameParts[nameParts.length - 1];
-    }
+    const fullName = name.trim();
     
     // Create a unique key for the student
-    const studentKey = `${firstName}|${lastInitial}|${school}`;
+    const studentKey = `${fullName}|${school}`;
     
     if (!studentMap.has(studentKey)) {
       studentMap.set(studentKey, {
-        first_name: firstName,
-        last_initial: lastInitial,
+        name: fullName,
         school: school,
         achievements: []
       });
@@ -77,6 +69,7 @@ function convertExcelToJson() {
     const teamAchievementsCell = `D${row}`;
     if (worksheet[teamAchievementsCell]) {
       const teamAchievementsText = worksheet[teamAchievementsCell].v;
+      
       const teamAchievementGroups = teamAchievementsText.split('\n\n');
       
       // Process each group of team achievements
@@ -98,7 +91,7 @@ function convertExcelToJson() {
           const studentLine = lines[i].trim();
           if (!studentLine) continue;
           
-          // Extract student name and school
+          // Only process lines that match the student pattern: "Name (School)"
           const studentMatch = studentLine.match(/(.+)\s+\((.+)\)/);
           if (!studentMatch) continue;
           
@@ -116,13 +109,14 @@ function convertExcelToJson() {
     const speakerAwardsCell = `E${row}`;
     if (worksheet[speakerAwardsCell]) {
       const speakerAwardsText = worksheet[speakerAwardsCell].v;
+      
       const speakerAwards = speakerAwardsText.split('\n');
       
       // Process each speaker award
       speakerAwards.forEach(award => {
         if (!award.trim()) return;
         
-        // Extract the description and student
+        // Only process lines that match the pattern "Award: Student (School)"
         const awardMatch = award.match(/(.+):\s+(.+)\s+\((.+)\)/);
         if (!awardMatch) return;
         
@@ -160,4 +154,4 @@ function convertExcelToJson() {
   return outputData;
 }
 
-module.exports = { convertExcelToJson };
+export { convertExcelToJson };

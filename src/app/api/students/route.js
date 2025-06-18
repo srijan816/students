@@ -68,22 +68,14 @@ export async function GET() {
 
     // Function to add a student to the map
     function addOrGetStudent(name, school) {
-      // Extract first name and last initial
-      const nameParts = name.trim().split(' ');
-      let firstName = nameParts[0];
-      let lastInitial = '';
-      
-      if (nameParts.length > 1) {
-        lastInitial = nameParts[nameParts.length - 1];
-      }
+      const fullName = name.trim();
       
       // Create a unique key for the student
-      const studentKey = `${firstName}|${lastInitial}|${school}`;
+      const studentKey = `${fullName}|${school}`;
       
       if (!studentMap.has(studentKey)) {
         studentMap.set(studentKey, {
-          first_name: firstName,
-          last_initial: lastInitial,
+          name: fullName,
           school: school,
           achievements: []
         });
@@ -132,8 +124,8 @@ export async function GET() {
           // Skip empty lines
           if (!line) continue;
           
-          // Check if this is a category line (contains a colon)
-          if (line.includes(':')) {
+          // Check if this is a category line (contains a colon and doesn't look like a student entry)
+          if (line.includes(':') && !line.match(/(.+)\s+\((.+)\)/)) {
             currentCategory = line.split(':')[0].trim();
             console.log(`Found category: "${currentCategory}"`);
             studentCount = 0;
@@ -141,18 +133,33 @@ export async function GET() {
           }
           
           // This could be a student line or a line with multiple students (using &)
-          // Check if the line contains multiple students (with &)
-          if (line.includes('&')) {
-            // Split by & to get each student
-            const studentEntries = line.split('&').map(entry => entry.trim());
-            
-            for (const entry of studentEntries) {
-              const studentMatch = entry.match(/(.+)\s+\((.+)\)/);
-              if (!studentMatch) {
-                console.log(`Could not parse student entry: ${entry}`);
-                continue;
-              }
+          // Only process lines that match the student pattern: "Name (School)"
+          if (line.match(/(.+)\s+\((.+)\)/)) {
+            // Check if the line contains multiple students (with &)
+            if (line.includes('&')) {
+              // Split by & to get each student
+              const studentEntries = line.split('&').map(entry => entry.trim());
               
+              for (const entry of studentEntries) {
+                const studentMatch = entry.match(/(.+)\s+\((.+)\)/);
+                if (!studentMatch) {
+                  console.log(`Could not parse student entry: ${entry}`);
+                  continue;
+                }
+                
+                const studentName = studentMatch[1].trim();
+                const school = studentMatch[2].trim();
+                
+                console.log(`Adding student "${studentName}" (${school}) with achievement: "${currentCategory}"`);
+                
+                // Add student and achievement
+                const student = addOrGetStudent(studentName, school);
+                addAchievement(student, tournament, date, currentCategory, 'team');
+                studentCount++;
+              }
+            } else {
+              // This is a single student line
+              const studentMatch = line.match(/(.+)\s+\((.+)\)/);
               const studentName = studentMatch[1].trim();
               const school = studentMatch[2].trim();
               
@@ -164,22 +171,8 @@ export async function GET() {
               studentCount++;
             }
           } else {
-            // This is a single student line
-            const studentMatch = line.match(/(.+)\s+\((.+)\)/);
-            if (!studentMatch) {
-              console.log(`Could not parse line as student: ${line}`);
-              continue;
-            }
-            
-            const studentName = studentMatch[1].trim();
-            const school = studentMatch[2].trim();
-            
-            console.log(`Adding student "${studentName}" (${school}) with achievement: "${currentCategory}"`);
-            
-            // Add student and achievement
-            const student = addOrGetStudent(studentName, school);
-            addAchievement(student, tournament, date, currentCategory, 'team');
-            studentCount++;
+            // Line doesn't match student pattern, skip it
+            console.log(`Skipping non-student line: ${line.substring(0, 50)}...`);
           }
         }
         
@@ -190,13 +183,14 @@ export async function GET() {
       const speakerAwardsCell = `E${row}`;
       if (worksheet[speakerAwardsCell]) {
         const speakerAwardsText = worksheet[speakerAwardsCell].v;
+        
         const speakerAwards = speakerAwardsText.split('\n');
         
         // Process each speaker award
         speakerAwards.forEach(award => {
           if (!award.trim()) return;
           
-          // First, extract the award description
+          // Only process lines that follow the pattern "Award: Student (School)"
           const parts = award.split(':');
           if (parts.length < 2) return;
           
@@ -226,10 +220,10 @@ export async function GET() {
               addAchievement(student, tournament, date, description, 'speaker');
             });
           } else {
-            // Regular single student format
+            // Regular single student format - only process if it matches the pattern
             const studentMatch = studentPart.match(/(.+)\s+\((.+)\)/);
             if (!studentMatch) {
-              console.log(`Could not parse student in speaker award: ${studentPart}`);
+              console.log(`Skipping non-standard speaker award format: ${award.substring(0, 50)}...`);
               return;
             }
             
@@ -249,8 +243,8 @@ export async function GET() {
     // Convert map to array of students
     const students = Array.from(studentMap.values());
 
-    // Sort students alphabetically by first name
-    students.sort((a, b) => a.first_name.localeCompare(b.first_name));
+    // Sort students alphabetically by name
+    students.sort((a, b) => a.name.localeCompare(b.name));
 
     // Create the output JSON structure
     const outputData = {

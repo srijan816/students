@@ -49,22 +49,14 @@ async function generateJSON() {
 
     // Function to add a student to the map
     function addOrGetStudent(name, school) {
-      // Extract first name and last initial
-      const nameParts = name.trim().split(' ');
-      let firstName = nameParts[0];
-      let lastInitial = '';
-      
-      if (nameParts.length > 1) {
-        lastInitial = nameParts[nameParts.length - 1];
-      }
+      const fullName = name.trim();
       
       // Create a unique key for the student
-      const studentKey = `${firstName}|${lastInitial}|${school}`;
+      const studentKey = `${fullName}|${school}`;
       
       if (!studentMap.has(studentKey)) {
         studentMap.set(studentKey, {
-          first_name: firstName,
-          last_initial: lastInitial,
+          name: fullName,
           school: school,
           achievements: []
         });
@@ -185,8 +177,8 @@ async function generateJSON() {
     // Convert map to array of students
     const students = Array.from(studentMap.values());
 
-    // Sort students alphabetically by first name
-    students.sort((a, b) => a.first_name.localeCompare(b.first_name));
+    // Sort students alphabetically by name
+    students.sort((a, b) => a.name.localeCompare(b.name));
 
     // Create the output JSON structure
     const outputData = {
