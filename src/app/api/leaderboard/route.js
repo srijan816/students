@@ -49,22 +49,26 @@ const SPECIAL_SPEAKER_AWARDS = {
 function isMajorTournament(tournamentName) {
   const name = tournamentName.trim().toLowerCase();
   
-  // Check for ASDC (Asian Schools Debating Championship) - various formats
-  if (name.includes('asian schools debating championship') || 
-      name.includes('south asian schools debating championship') ||
-      name === 'asdc' || 
-      /^asdc\s+(20\d{2}|'\d{2})$/i.test(name)) {
-    return true;
-  }
+  // ASDC (Asian Schools Debating Championship) - exact matches only
+  const asdcPatterns = [
+    /^asian schools debating championship$/,
+    /^asian schools debating championship\s+(20\d{2})$/,
+    /^south asian schools debating championship$/,
+    /^south asian schools debating championship\s+(20\d{2})$/,
+    /^asdc$/,
+    /^asdc\s+(20\d{2})$/
+  ];
   
-  // Check for WSDC (World Schools Debating Championship) - various formats
-  if (name.includes('world schools debating championship') || 
-      name === 'wsdc' || 
-      /^wsdc\s+(20\d{2}|'\d{2})$/i.test(name)) {
-    return true;
-  }
+  // WSDC (World Schools Debating Championship) - exact matches only
+  const wsdcPatterns = [
+    /^world schools debating championship$/,
+    /^world schools debating championship\s+(20\d{2})$/,
+    /^wsdc$/,
+    /^wsdc\s+(20\d{2})$/
+  ];
   
-  return false;
+  // Test against all patterns
+  return [...asdcPatterns, ...wsdcPatterns].some(pattern => pattern.test(name));
 }
 
 function parseTeamAchievement(achievement) {
