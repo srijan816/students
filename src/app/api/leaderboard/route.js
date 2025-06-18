@@ -47,17 +47,24 @@ const SPECIAL_SPEAKER_AWARDS = {
 };
 
 function isMajorTournament(tournamentName) {
-  const name = tournamentName.trim();
+  const name = tournamentName.trim().toLowerCase();
   
-  // Check if it's exactly one of the major tournaments (with optional year)
-  return MAJOR_TOURNAMENTS.some(major => {
-    // Exact match
-    if (name === major) return true;
-    
-    // Match with year (e.g., "WSDC 2024", "ASDC 2023")
-    const yearPattern = new RegExp(`^${major}\\s+(20\\d{2}|'\\d{2})$`, 'i');
-    return yearPattern.test(name);
-  });
+  // Check for ASDC (Asian Schools Debating Championship) - various formats
+  if (name.includes('asian schools debating championship') || 
+      name.includes('south asian schools debating championship') ||
+      name === 'asdc' || 
+      /^asdc\s+(20\d{2}|'\d{2})$/i.test(name)) {
+    return true;
+  }
+  
+  // Check for WSDC (World Schools Debating Championship) - various formats
+  if (name.includes('world schools debating championship') || 
+      name === 'wsdc' || 
+      /^wsdc\s+(20\d{2}|'\d{2})$/i.test(name)) {
+    return true;
+  }
+  
+  return false;
 }
 
 function parseTeamAchievement(achievement) {
