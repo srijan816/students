@@ -89,12 +89,17 @@ export default function Home() {
     <div className="flex flex-col min-h-screen p-6 md:p-12">
       <main className="w-full max-w-4xl mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold mb-4">Debate Achievements</h1>
-          <p className="text-gray-600 dark:text-gray-300">Enter a student&apos;s name to view their achievements</p>
+          <h1 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">
+            Debate Achievements
+          </h1>
+          <p className="text-lg text-muted-foreground">Enter a student&apos;s name to view their achievements</p>
           {loading && <p className="text-blue-500 mt-2">Loading latest student data...</p>}
-          <div className="mt-4">
-            <a href="/leaderboard" className="inline-block px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-              View Leaderboard →
+          <div className="mt-6">
+            <a href="/leaderboard" className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200 font-medium">
+              View Leaderboard
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
             </a>
           </div>
         </div>
