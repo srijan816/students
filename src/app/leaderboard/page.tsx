@@ -42,7 +42,7 @@ export default function LeaderboardPage() {
 
   const fetchLeaderboard = async () => {
     try {
-      const response = await fetch('/api/leaderboard');
+      const response = await fetch('/api/leaderboard?limit=50');
       const result = await response.json();
       
       if (result.success) {
@@ -59,7 +59,7 @@ export default function LeaderboardPage() {
     const matchesSchool = !filterSchool || entry.student.school.toLowerCase().includes(filterSchool.toLowerCase());
     const matchesSearch = !searchTerm || entry.student.name.toLowerCase().includes(searchTerm.toLowerCase());
     return matchesSchool && matchesSearch;
-  }).slice(0, 50); // Only take top 50
+  });
 
   const uniqueSchools = Array.from(new Set(leaderboard.map(entry => entry.student.school))).sort();
 
