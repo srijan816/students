@@ -10,6 +10,41 @@ import studentsData from '../../data/students.json';
 // Dynamically import react-select to avoid server-side rendering issues
 const Select = dynamic(() => import('react-select'), { ssr: false });
 
+// Convert plural team achievement names to singular
+function convertToSingular(achievement: string): string {
+  // Only convert for team achievements
+  const conversions: { [key: string]: string } = {
+    'Champions': 'Champion',
+    'Finalists': 'Finalist',
+    'Runner-Ups': 'Runner-Up',
+    'Semifinalists': 'Semifinalist',
+    'Semi-Finalists': 'Semi-Finalist',
+    'Quarterfinalists': 'Quarterfinalist',
+    'Quarter-Finalists': 'Quarter-Finalist',
+    'Octofinalists': 'Octofinalist',
+    'Octo-Finalists': 'Octo-Finalist',
+    'Double Octofinalists': 'Double Octofinalist',
+    'Double-Octofinalists': 'Double-Octofinalist'
+  };
+  
+  // Check each conversion pattern
+  for (const [plural, singular] of Object.entries(conversions)) {
+    // Case-insensitive replacement while preserving the original case pattern
+    const regex = new RegExp(`\\b${plural}\\b`, 'gi');
+    if (regex.test(achievement)) {
+      return achievement.replace(regex, (match) => {
+        // Preserve the case of the original text
+        if (match[0] === match[0].toUpperCase()) {
+          return singular;
+        }
+        return singular.toLowerCase();
+      });
+    }
+  }
+  
+  return achievement;
+}
+
 // Define types for our student data
 type Achievement = {
   tournament: string;
@@ -190,7 +225,7 @@ export default function Home() {
                                       </>
                                     ) : null}
                                     <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">
-                                      {achievement.description}
+                                      {achievement.type === 'team' ? convertToSingular(achievement.description) : achievement.description}
                                     </td>
                                   </tr>
                                 );
@@ -270,7 +305,7 @@ export default function Home() {
                                       </>
                                     ) : null}
                                     <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">
-                                      {achievement.description}
+                                      {achievement.type === 'team' ? convertToSingular(achievement.description) : achievement.description}
                                     </td>
                                   </tr>
                                 );

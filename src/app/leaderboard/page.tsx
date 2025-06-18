@@ -28,6 +28,41 @@ interface LeaderboardEntry {
   breakdown: PointBreakdown[];
 }
 
+// Convert plural team achievement names to singular
+function convertToSingular(achievement: string): string {
+  // Only convert for team achievements
+  const conversions: { [key: string]: string } = {
+    'Champions': 'Champion',
+    'Finalists': 'Finalist',
+    'Runner-Ups': 'Runner-Up',
+    'Semifinalists': 'Semifinalist',
+    'Semi-Finalists': 'Semi-Finalist',
+    'Quarterfinalists': 'Quarterfinalist',
+    'Quarter-Finalists': 'Quarter-Finalist',
+    'Octofinalists': 'Octofinalist',
+    'Octo-Finalists': 'Octo-Finalist',
+    'Double Octofinalists': 'Double Octofinalist',
+    'Double-Octofinalists': 'Double-Octofinalist'
+  };
+  
+  // Check each conversion pattern
+  for (const [plural, singular] of Object.entries(conversions)) {
+    // Case-insensitive replacement while preserving the original case pattern
+    const regex = new RegExp(`\\b${plural}\\b`, 'gi');
+    if (regex.test(achievement)) {
+      return achievement.replace(regex, (match) => {
+        // Preserve the case of the original text
+        if (match[0] === match[0].toUpperCase()) {
+          return singular;
+        }
+        return singular.toLowerCase();
+      });
+    }
+  }
+  
+  return achievement;
+}
+
 export default function LeaderboardPage() {
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
   const [loading, setLoading] = useState(true);
@@ -208,7 +243,7 @@ export default function LeaderboardPage() {
                                       <CardContent className="pt-4">
                                         <div className="flex justify-between items-start gap-4">
                                           <div className="flex-1 min-w-0">
-                                            <div className="font-semibold text-base mb-1 text-gray-900 dark:text-gray-100">{item.achievement}</div>
+                                            <div className="font-semibold text-base mb-1 text-gray-900 dark:text-gray-100">{item.type === 'team' ? convertToSingular(item.achievement) : item.achievement}</div>
                                             <div className="text-sm text-gray-700 dark:text-gray-300">
                                               {item.tournament} • {item.date}
                                             </div>
