@@ -187,50 +187,50 @@ export default function LeaderboardPage() {
                           </DialogTrigger>
                           <DialogContent className="max-w-4xl max-h-[85vh] overflow-y-auto">
                             <DialogHeader>
-                              <DialogTitle className="text-2xl flex items-center gap-3">
+                              <DialogTitle className="text-2xl flex items-center gap-3 text-foreground">
                                 <div className={`inline-flex items-center justify-center w-8 h-8 rounded-full font-bold text-sm ${getRankBadgeColor(entry.rank)}`}>
                                   {entry.rank}
                                 </div>
                                 {entry.student.name}
                               </DialogTitle>
-                              <div className="text-muted-foreground">
-                                {entry.student.school} • Total Points: {entry.totalPoints}
+                              <div className="text-sm font-medium text-gray-600 dark:text-gray-400">
+                                {entry.student.school} • Total Points: <span className="font-bold text-foreground">{entry.totalPoints}</span>
                               </div>
                             </DialogHeader>
                             
                             <div className="space-y-6 mt-6">
                               {/* Achievements Breakdown */}
                               <div>
-                                <h3 className="text-lg font-semibold mb-4">Achievement Breakdown</h3>
+                                <h3 className="text-lg font-semibold mb-4 text-foreground">Achievement Breakdown</h3>
                                 <div className="space-y-3">
                                   {entry.breakdown.map((item, i) => (
-                                    <Card key={i} className="border-l-4 border-l-primary">
+                                    <Card key={i} className="border-l-4 border-l-primary bg-white dark:bg-gray-900">
                                       <CardContent className="pt-4">
                                         <div className="flex justify-between items-start gap-4">
                                           <div className="flex-1 min-w-0">
-                                            <div className="font-semibold text-base mb-1">{item.achievement}</div>
-                                            <div className="text-sm text-muted-foreground">
+                                            <div className="font-semibold text-base mb-1 text-foreground">{item.achievement}</div>
+                                            <div className="text-sm text-gray-600 dark:text-gray-400">
                                               {item.tournament} • {item.date}
                                             </div>
                                             <div className="inline-flex items-center gap-2 mt-2">
                                               <span className={`px-2 py-1 rounded-md text-xs font-medium ${
                                                 item.type === 'team' 
-                                                  ? 'bg-blue-100 text-blue-800' 
-                                                  : 'bg-green-100 text-green-800'
+                                                  ? 'bg-blue-100 text-blue-900 dark:bg-blue-900 dark:text-blue-100' 
+                                                  : 'bg-green-100 text-green-900 dark:bg-green-900 dark:text-green-100'
                                               }`}>
                                                 {item.type === 'team' ? 'Team' : 'Speaker'}
                                               </span>
                                               {item.multiplier > 1 && (
-                                                <span className="px-2 py-1 rounded-md text-xs font-medium bg-amber-100 text-amber-800">
+                                                <span className="px-2 py-1 rounded-md text-xs font-medium bg-amber-100 text-amber-900 dark:bg-amber-900 dark:text-amber-100">
                                                   Major Tournament (2×)
                                                 </span>
                                               )}
                                             </div>
                                           </div>
                                           <div className="text-right flex-shrink-0">
-                                            <div className="font-bold text-2xl text-primary">{item.totalPoints}</div>
+                                            <div className="font-bold text-2xl text-blue-600 dark:text-blue-400">{item.totalPoints}</div>
                                             {item.multiplier > 1 && (
-                                              <div className="text-sm text-muted-foreground">
+                                              <div className="text-sm text-gray-600 dark:text-gray-400">
                                                 {item.basePoints} × {item.multiplier}
                                               </div>
                                             )}
@@ -243,33 +243,33 @@ export default function LeaderboardPage() {
                               </div>
                               
                               {/* Scoring System Reference */}
-                              <Card className="bg-muted/30">
+                              <Card className="bg-gray-100 dark:bg-gray-800 border-gray-200 dark:border-gray-700">
                                 <CardHeader>
-                                  <CardTitle className="text-base">Scoring System Reference</CardTitle>
+                                  <CardTitle className="text-base text-foreground">Scoring System Reference</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                                     <div>
-                                      <h4 className="font-semibold mb-3 text-blue-700">Team Achievements</h4>
-                                      <div className="space-y-2 text-sm">
-                                        <div className="flex justify-between"><span>Champion</span><span className="font-medium">30 pts</span></div>
-                                        <div className="flex justify-between"><span>Finalist</span><span className="font-medium">25 pts</span></div>
-                                        <div className="flex justify-between"><span>Semifinalist</span><span className="font-medium">20 pts</span></div>
-                                        <div className="flex justify-between"><span>Quarterfinalist</span><span className="font-medium">15 pts</span></div>
-                                        <div className="flex justify-between"><span>Octofinalist</span><span className="font-medium">10 pts</span></div>
-                                        <div className="flex justify-between"><span>Double Octos</span><span className="font-medium">5 pts</span></div>
+                                      <h4 className="font-semibold mb-3 text-blue-600 dark:text-blue-400">Team Achievements</h4>
+                                      <div className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
+                                        <div className="flex justify-between"><span>Champion</span><span className="font-semibold text-foreground">30 pts</span></div>
+                                        <div className="flex justify-between"><span>Finalist</span><span className="font-semibold text-foreground">25 pts</span></div>
+                                        <div className="flex justify-between"><span>Semifinalist</span><span className="font-semibold text-foreground">20 pts</span></div>
+                                        <div className="flex justify-between"><span>Quarterfinalist</span><span className="font-semibold text-foreground">15 pts</span></div>
+                                        <div className="flex justify-between"><span>Octofinalist</span><span className="font-semibold text-foreground">10 pts</span></div>
+                                        <div className="flex justify-between"><span>Double Octos</span><span className="font-semibold text-foreground">5 pts</span></div>
                                       </div>
                                     </div>
                                     <div>
-                                      <h4 className="font-semibold mb-3 text-green-700">Speaker Awards</h4>
-                                      <div className="space-y-2 text-sm">
-                                        <div className="flex justify-between"><span>1st-10th Place</span><span className="font-medium">10-1 pts</span></div>
-                                        <div className="flex justify-between"><span>Finals Best Speaker</span><span className="font-medium">10 pts</span></div>
-                                        <div className="flex justify-between"><span>Overall Best Speaker</span><span className="font-medium">10 pts</span></div>
+                                      <h4 className="font-semibold mb-3 text-green-600 dark:text-green-400">Speaker Awards</h4>
+                                      <div className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
+                                        <div className="flex justify-between"><span>1st-10th Place</span><span className="font-semibold text-foreground">10-1 pts</span></div>
+                                        <div className="flex justify-between"><span>Finals Best Speaker</span><span className="font-semibold text-foreground">10 pts</span></div>
+                                        <div className="flex justify-between"><span>Overall Best Speaker</span><span className="font-semibold text-foreground">10 pts</span></div>
                                       </div>
-                                      <div className="mt-4 p-3 bg-amber-50 rounded-md">
-                                        <div className="text-sm font-semibold text-amber-800">Major Tournament Bonus</div>
-                                        <div className="text-xs text-amber-700 mt-1">ASDC and WSDC achievements receive 2× points</div>
+                                      <div className="mt-4 p-3 bg-amber-50 dark:bg-amber-900/20 rounded-md border border-amber-200 dark:border-amber-800">
+                                        <div className="text-sm font-semibold text-amber-900 dark:text-amber-200">Major Tournament Bonus</div>
+                                        <div className="text-xs text-amber-800 dark:text-amber-300 mt-1">ASDC and WSDC achievements receive 2× points</div>
                                       </div>
                                     </div>
                                   </div>
