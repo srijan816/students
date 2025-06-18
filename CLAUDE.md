@@ -48,6 +48,21 @@ npm run lint
 - `leaderboardScoring.js` - Core scoring logic for achievements
 - `excelConverter.js` - Excel file processing utilities
 
+### Version Control & Snapshots
+- **Baseline**: Created with current spreadsheet state (June 15, 2025)
+- **Weekly snapshots**: Automatically created every Sunday when leaderboard is accessed
+- **Position tracking**: Compares current week with previous week's snapshot
+- **Snapshots stored**: `data/leaderboard-snapshots/snapshot-YYYY-MM-DD.json`
+
+#### Manual Snapshot Commands
+```bash
+# Create baseline from current state
+node scripts/create-baseline-snapshot.js
+
+# Force create snapshot for current week (for testing)
+node scripts/create-test-snapshot.js
+```
+
 **Note**: All utility files are consolidated in `src/utils/` and accessed via `@/utils/` import alias.
 
 ## Important Notes

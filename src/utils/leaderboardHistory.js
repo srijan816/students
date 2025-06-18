@@ -87,10 +87,11 @@ export function getPreviousSnapshot() {
 // Calculate position changes between current and previous snapshot
 export function calculatePositionChanges(currentLeaderboard, previousSnapshot) {
   if (!previousSnapshot) {
+    // For the first week (baseline), show no changes instead of marking as new
     return currentLeaderboard.map(entry => ({
       ...entry,
       positionChange: null,
-      isNew: true
+      isNew: false
     }));
   }
   

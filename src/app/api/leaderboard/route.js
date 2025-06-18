@@ -1,11 +1,6 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
-import { 
-  saveLeaderboardSnapshot, 
-  getPreviousSnapshot, 
-  calculatePositionChanges 
-} from '@/utils/leaderboardHistory.js';
 
 export const dynamic = 'force-dynamic';
 
@@ -221,12 +216,32 @@ export async function GET(request) {
     // Generate leaderboard
     const leaderboard = generateLeaderboard(studentsData);
     
-    // Save snapshot (automatically handles weekly scheduling)
-    await saveLeaderboardSnapshot(leaderboard);
-    
     // Get previous snapshot and calculate position changes
-    const previousSnapshot = getPreviousSnapshot();
-    const leaderboardWithChanges = calculatePositionChanges(leaderboard, previousSnapshot);
+    let previousSnapshot = null;
+    let leaderboardWithChanges = leaderboard;
+    
+    try {
+      const { 
+        saveLeaderboardSnapshot, 
+        getPreviousSnapshot, 
+        calculatePositionChanges 
+      } = await import('@/utils/leaderboardHistory.js');
+      
+      // Save snapshot (automatically handles weekly scheduling)
+      await saveLeaderboardSnapshot(leaderboard);
+      
+      // Get previous snapshot and calculate position changes
+      previousSnapshot = getPreviousSnapshot();
+      leaderboardWithChanges = calculatePositionChanges(leaderboard, previousSnapshot);
+    } catch (error) {
+      console.error('Error with leaderboard history:', error);
+      // Continue without history features
+      leaderboardWithChanges = leaderboard.map(entry => ({
+        ...entry,
+        positionChange: null,
+        isNew: false
+      }));
+    }
     
     // Get top 20 by default, or all if specified
     const { searchParams } = new URL(request.url);

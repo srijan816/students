@@ -32,27 +32,42 @@ function createTestSnapshot() {
   const filename = `snapshot-${year}-${month}-${day}.json`;
   const filepath = path.join(SNAPSHOTS_DIR, filename);
   
-  // Create test data - simulate some position changes
+  // Create realistic test data with actual student names and simulated position changes
   const testSnapshot = {
     date: lastWeek.toISOString(),
     timestamp: new Date().toISOString(),
     leaderboard: [
-      { studentName: "Ahmed Taha", school: "GEMS", rank: 3, totalPoints: 475 },
-      { studentName: "Samarth Singh", school: "INSR", rank: 1, totalPoints: 485 },
-      { studentName: "Meghna Manjunath", school: "GEMS", rank: 2, totalPoints: 480 },
-      { studentName: "Divija Macha", school: "INSR", rank: 5, totalPoints: 420 },
-      { studentName: "Syed Ilham", school: "GEMS", rank: 4, totalPoints: 440 },
-      { studentName: "Jash Singh", school: "BPS", rank: 8, totalPoints: 280 },
-      { studentName: "Aritra Sinha", school: "GEMS", rank: 6, totalPoints: 320 },
-      { studentName: "Maryam Siddique", school: "GEMS", rank: 7, totalPoints: 305 },
-      { studentName: "Rohit Sankar", school: "BPS", rank: 10, totalPoints: 250 },
-      { studentName: "Anirudh Arun", school: "INSR", rank: 9, totalPoints: 260 },
-      // Add more test data to simulate various position changes
-      { studentName: "Aadhya Sai", school: "GEMS", rank: 11, totalPoints: 240 },
-      { studentName: "Tanisha Iyer", school: "BPS", rank: 12, totalPoints: 230 },
-      { studentName: "Hrithik Mhatre", school: "INSR", rank: 13, totalPoints: 220 },
-      { studentName: "Vanshveer Singh", school: "GEMS", rank: 14, totalPoints: 210 },
-      { studentName: "Diya Mohan", school: "BPS", rank: 15, totalPoints: 200 }
+      // Simulate Tony S. being in 2nd place last week (now 1st - moved up 1)
+      { studentName: "Tony S.", school: "CIS", rank: 2, totalPoints: 220 },
+      // Simulate Pacey Q. being in 1st place last week (now 2nd - moved down 1) 
+      { studentName: "Pacey Q.", school: "DCB", rank: 1, totalPoints: 225 },
+      // Simulate Aiden T. staying in 3rd place (no change)
+      { studentName: "Aiden T.", school: "CIS", rank: 3, totalPoints: 215 },
+      // Simulate Yeonseo K. being in 6th place last week (now 4th - moved up 2)
+      { studentName: "Yeonseo K.", school: "GSIS", rank: 6, totalPoints: 165 },
+      // Simulate Alexander B. being in 4th place last week (now 5th - moved down 1)
+      { studentName: "Alexander B.", school: "TA", rank: 4, totalPoints: 170 },
+      // Simulate Anson C. being in 8th place last week (now 6th - moved up 2)
+      { studentName: "Anson C.", school: "DGS", rank: 8, totalPoints: 130 },
+      // Simulate Zhe-Hong W. being in 5th place last week (now 6th tied - moved down 1)
+      { studentName: "Zhe-Hong W.", school: "HKIS", rank: 5, totalPoints: 145 },
+      // Simulate Moses L. being in 7th place last week (now 8th - moved down 1)
+      { studentName: "Moses L.", school: "CIS", rank: 7, totalPoints: 135 },
+      // Simulate Samuel K. staying in 9th place (no change)
+      { studentName: "Samuel K.", school: "CIS", rank: 9, totalPoints: 125 },
+      // Simulate Nick S. being in 12th place last week (now 10th - moved up 2)
+      { studentName: "Nick S.", school: "CIS", rank: 12, totalPoints: 105 },
+      // Add more students to complete the snapshot
+      { studentName: "Jonathan H.", school: "DBS", rank: 10, totalPoints: 110 },
+      { studentName: "Mollie M.", school: "HKIS", rank: 11, totalPoints: 108 },
+      { studentName: "Gemma Y.", school: "KGV", rank: 13, totalPoints: 95 },
+      { studentName: "Bella L.", school: "CIS", rank: 15, totalPoints: 90 },
+      { studentName: "Catherine H.", school: "CIS", rank: 14, totalPoints: 92 },
+      { studentName: "Adam P.", school: "CIS", rank: 16, totalPoints: 85 },
+      { studentName: "Adrian W.", school: "HKIS", rank: 17, totalPoints: 85 },
+      { studentName: "Emi R.", school: "CIS", rank: 18, totalPoints: 85 },
+      { studentName: "Gigi C.", school: "DGS", rank: 19, totalPoints: 83 },
+      { studentName: "Riya P.", school: "STC", rank: 20, totalPoints: 83 }
     ]
   };
   

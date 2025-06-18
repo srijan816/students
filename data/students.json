@@ -41,6 +41,12 @@
       "school": "HKIS",
       "achievements": [
         {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "team",
+          "description": "Novice Champions"
+        },
+        {
           "tournament": "Junior Schools Debating Championships (JSDC)",
           "date": "Mar 15-16, 2025",
           "type": "team",
@@ -88,6 +94,30 @@
       "name": "Aiden T.",
       "school": "CIS",
       "achievements": [
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        },
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "speaker",
+          "description": "Junior 7th Best"
+        },
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "speaker",
+          "description": "Novice 11th Best"
+        },
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "speaker",
+          "description": "Overall 18th Best"
+        },
         {
           "tournament": "South Asian Schools Debating Championship 2025",
           "date": "June 6-8, 2025",
@@ -556,6 +586,12 @@
       "name": "Audrey L.",
       "school": "HKIS",
       "achievements": [
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "team",
+          "description": "Novice Champions"
+        },
         {
           "tournament": "Novice WSDC 2025",
           "date": "Feb 22-23, 2025",
@@ -1643,6 +1679,24 @@
       "school": "DBS",
       "achievements": [
         {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        },
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "speaker",
+          "description": "Novice 2nd Best"
+        },
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "speaker",
+          "description": "Overall 5th Best"
+        },
+        {
           "tournament": "HK Senior Schools Debating Championships 2024",
           "date": "Oct 12-13, 2024",
           "type": "team",
@@ -2189,6 +2243,24 @@
       "school": "DCB",
       "achievements": [
         {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        },
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "speaker",
+          "description": "Novice 8th Best"
+        },
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "speaker",
+          "description": "Overall 15th Best"
+        },
+        {
           "tournament": "South Asian Schools Debating Championship 2025",
           "date": "June 6-8, 2025",
           "type": "team",
@@ -2363,6 +2435,12 @@
       "school": "HKIS",
       "achievements": [
         {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "team",
+          "description": "Novice Champions"
+        },
+        {
           "tournament": "Novice WSDC 2025",
           "date": "Feb 22-23, 2025",
           "type": "team",
@@ -2404,6 +2482,24 @@
       "name": "Samuel K.",
       "school": "CIS",
       "achievements": [
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        },
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "speaker",
+          "description": "Junior 8th Best"
+        },
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "speaker",
+          "description": "Novice 13th Best"
+        },
         {
           "tournament": "South Asia Schools BP",
           "date": "Mar 29-30, 2025",
@@ -2590,6 +2686,12 @@
       "name": "Theodore W.",
       "school": "HKIS",
       "achievements": [
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "speaker",
+          "description": "Novice 5th Best"
+        },
         {
           "tournament": "Junior Schools Debating Championships (JSDC)",
           "date": "Mar 15-16, 2025",
@@ -2787,6 +2889,24 @@
           "date": "March 16-17, 2024",
           "type": "team",
           "description": "Quarterfinalists"
+        }
+      ]
+    },
+    {
+      "name": "Vir K.",
+      "school": "HKIS",
+      "achievements": [
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "team",
+          "description": "Quarterfinalists"
+        },
+        {
+          "tournament": "Asian Schools Debating Championship 2025",
+          "date": "June 16-18, 2025",
+          "type": "speaker",
+          "description": "Novice 15th Best"
         }
       ]
     },
