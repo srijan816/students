@@ -33,6 +33,8 @@ export default function LeaderboardPage() {
   const [loading, setLoading] = useState(true);
   const [filterSchool, setFilterSchool] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 10;
 
   useEffect(() => {
     fetchLeaderboard();
@@ -57,9 +59,20 @@ export default function LeaderboardPage() {
     const matchesSchool = !filterSchool || entry.student.school.toLowerCase().includes(filterSchool.toLowerCase());
     const matchesSearch = !searchTerm || entry.student.name.toLowerCase().includes(searchTerm.toLowerCase());
     return matchesSchool && matchesSearch;
-  });
+  }).slice(0, 50); // Only take top 50
 
   const uniqueSchools = Array.from(new Set(leaderboard.map(entry => entry.student.school))).sort();
+
+  // Pagination logic
+  const totalPages = Math.ceil(filteredLeaderboard.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const paginatedLeaderboard = filteredLeaderboard.slice(startIndex, endIndex);
+
+  // Reset to page 1 when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [filterSchool, searchTerm]);
 
   if (loading) {
     return (
@@ -93,7 +106,7 @@ export default function LeaderboardPage() {
               Debater Leaderboard
             </h1>
             <p className="text-lg text-muted-foreground mt-2">
-              Top debaters ranked by achievement points • {filteredLeaderboard.length} debaters
+              Top 50 debaters ranked by achievement points • Showing {paginatedLeaderboard.length} of {filteredLeaderboard.length} debaters
             </p>
           </div>
         </div>
@@ -149,7 +162,7 @@ export default function LeaderboardPage() {
                   </TableRow>
                 </TableHeader>
                 <TableBody>
-                  {filteredLeaderboard.map((entry, index) => (
+                  {paginatedLeaderboard.map((entry, index) => (
                     <TableRow key={index} className="hover:bg-muted/25 transition-colors">
                       <TableCell className="text-center">
                         <div className={`inline-flex items-center justify-center w-10 h-10 rounded-full font-bold text-sm ${getRankBadgeColor(entry.rank)}`}>
@@ -273,6 +286,69 @@ export default function LeaderboardPage() {
             </div>
           </CardContent>
         </Card>
+
+        {/* Pagination Controls */}
+        {totalPages > 1 && (
+          <Card>
+            <CardContent className="py-4">
+              <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="text-sm text-muted-foreground">
+                  Page {currentPage} of {totalPages}
+                </div>
+                <div className="flex items-center gap-2">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => setCurrentPage(1)}
+                    disabled={currentPage === 1}
+                  >
+                    First
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
+                    disabled={currentPage === 1}
+                  >
+                    Previous
+                  </Button>
+                  
+                  {/* Page numbers */}
+                  <div className="flex items-center gap-1">
+                    {Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
+                      <Button
+                        key={page}
+                        variant={currentPage === page ? "default" : "outline"}
+                        size="sm"
+                        onClick={() => setCurrentPage(page)}
+                        className="w-10"
+                      >
+                        {page}
+                      </Button>
+                    ))}
+                  </div>
+                  
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => setCurrentPage(prev => Math.min(totalPages, prev + 1))}
+                    disabled={currentPage === totalPages}
+                  >
+                    Next
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => setCurrentPage(totalPages)}
+                    disabled={currentPage === totalPages}
+                  >
+                    Last
+                  </Button>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        )}
       </div>
     </div>
   );
