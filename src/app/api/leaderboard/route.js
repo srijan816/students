@@ -53,8 +53,6 @@ function isMajorTournament(tournamentName) {
   const asdcPatterns = [
     /^asian schools debating championship$/,
     /^asian schools debating championship\s+(20\d{2})$/,
-    /^south asian schools debating championship$/,
-    /^south asian schools debating championship\s+(20\d{2})$/,
     /^asdc$/,
     /^asdc\s+(20\d{2})$/
   ];
