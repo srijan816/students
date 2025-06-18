@@ -76,7 +76,7 @@ export default function LeaderboardPage() {
   }
 
   return (
-    <div className="min-h-screen bg-background p-8">
+    <div className="min-h-screen bg-background p-4 sm:p-8">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8">
           <Link href="/" className="text-blue-600 hover:underline mb-4 inline-block">
@@ -86,7 +86,7 @@ export default function LeaderboardPage() {
           <p className="text-gray-600">Top 20 debaters ranked by achievement points</p>
         </div>
 
-        <div className="mb-6 flex gap-4">
+        <div className="mb-6 flex flex-col sm:flex-row gap-4">
           <input
             type="text"
             placeholder="Search debater..."
@@ -97,7 +97,7 @@ export default function LeaderboardPage() {
           <select
             value={filterSchool}
             onChange={(e) => setFilterSchool(e.target.value)}
-            className="px-4 py-2 border rounded-lg"
+            className="px-4 py-2 border rounded-lg sm:w-auto"
           >
             <option value="">All Schools</option>
             {uniqueSchools.map(school => (
@@ -107,55 +107,57 @@ export default function LeaderboardPage() {
         </div>
 
         <div className="bg-white rounded-lg shadow overflow-hidden">
-          <table className="w-full">
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[600px]">
             <thead className="bg-gray-50">
               <tr>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th className="px-3 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Rank
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th className="px-3 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Name
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th className="px-3 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   School
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th className="px-3 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Points
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  
+                <th className="px-3 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Action
                 </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
               {filteredLeaderboard.map((entry, index) => (
                 <tr key={index}>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-800 font-semibold">
+                  <td className="px-3 sm:px-6 py-4 whitespace-nowrap">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-800 font-semibold text-sm">
                       {entry.rank}
                     </div>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
+                  <td className="px-3 sm:px-6 py-4 whitespace-nowrap">
                     <div className="text-sm font-medium text-gray-900">{entry.student.name}</div>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
+                  <td className="px-3 sm:px-6 py-4 whitespace-nowrap">
                     <div className="text-sm text-gray-500">{entry.student.school}</div>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    <div className="text-lg font-semibold text-gray-900">{entry.totalPoints}</div>
+                  <td className="px-3 sm:px-6 py-4 whitespace-nowrap">
+                    <div className="text-base sm:text-lg font-semibold text-gray-900">{entry.totalPoints}</div>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                  <td className="px-3 sm:px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                     <button
                       onClick={() => toggleRowExpansion(index)}
-                      className="text-blue-600 hover:text-blue-900"
+                      className="px-3 py-1 text-blue-600 hover:text-blue-900 hover:bg-blue-50 rounded transition-colors"
                     >
-                      {expandedRows.has(index) ? 'Hide' : 'View'} Breakdown
+                      {expandedRows.has(index) ? 'Hide' : 'View'}
                     </button>
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
+          </div>
         </div>
 
         {/* Expanded Breakdown Modal */}
@@ -164,17 +166,17 @@ export default function LeaderboardPage() {
           if (!entry) return null;
           
           return (
-            <div key={index} className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-              <div className="bg-white rounded-lg max-w-4xl w-full max-h-[80vh] overflow-y-auto">
-                <div className="p-6">
+            <div key={index} className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-2 sm:p-4 z-50">
+              <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] sm:max-h-[80vh] overflow-y-auto">
+                <div className="p-4 sm:p-6">
                   <div className="flex justify-between items-start mb-4">
-                    <div>
-                      <h2 className="text-2xl font-bold">{entry.student.name}</h2>
-                      <p className="text-gray-600">{entry.student.school} • Total Points: {entry.totalPoints}</p>
+                    <div className="flex-1 min-w-0">
+                      <h2 className="text-xl sm:text-2xl font-bold truncate">{entry.student.name}</h2>
+                      <p className="text-sm sm:text-base text-gray-600">{entry.student.school} • Total Points: {entry.totalPoints}</p>
                     </div>
                     <button
                       onClick={() => toggleRowExpansion(index)}
-                      className="text-gray-500 hover:text-gray-700"
+                      className="ml-4 text-gray-500 hover:text-gray-700 flex-shrink-0"
                     >
                       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -184,18 +186,18 @@ export default function LeaderboardPage() {
                   
                   <div className="space-y-2">
                     {entry.breakdown.map((item, i) => (
-                      <div key={i} className="border-l-4 border-blue-500 pl-4 py-2">
-                        <div className="flex justify-between items-start">
-                          <div>
-                            <p className="font-medium">{item.achievement}</p>
-                            <p className="text-sm text-gray-600">
+                      <div key={i} className="border-l-4 border-blue-500 pl-3 sm:pl-4 py-2">
+                        <div className="flex justify-between items-start gap-2">
+                          <div className="flex-1 min-w-0">
+                            <p className="font-medium text-sm sm:text-base">{item.achievement}</p>
+                            <p className="text-xs sm:text-sm text-gray-600 truncate">
                               {item.tournament} • {item.date}
                             </p>
                           </div>
-                          <div className="text-right">
-                            <p className="font-semibold text-lg">{item.totalPoints} pts</p>
+                          <div className="text-right flex-shrink-0">
+                            <p className="font-semibold text-base sm:text-lg">{item.totalPoints} pts</p>
                             {item.multiplier > 1 && (
-                              <p className="text-sm text-green-600">
+                              <p className="text-xs sm:text-sm text-green-600">
                                 {item.basePoints} × {item.multiplier}
                               </p>
                             )}
@@ -206,11 +208,11 @@ export default function LeaderboardPage() {
                   </div>
                   
                   <div className="mt-6 pt-4 border-t">
-                    <h3 className="font-semibold mb-2">Scoring System</h3>
-                    <div className="grid grid-cols-2 gap-4 text-sm text-gray-600">
+                    <h3 className="font-semibold mb-2 text-sm sm:text-base">Scoring System</h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs sm:text-sm text-gray-600">
                       <div>
                         <p className="font-medium">Team Achievements:</p>
-                        <ul className="ml-4">
+                        <ul className="ml-3 sm:ml-4 space-y-1">
                           <li>Champion: 30 pts</li>
                           <li>Finalist: 25 pts</li>
                           <li>Semifinalist: 20 pts</li>
@@ -221,7 +223,7 @@ export default function LeaderboardPage() {
                       </div>
                       <div>
                         <p className="font-medium">Speaker Awards:</p>
-                        <ul className="ml-4">
+                        <ul className="ml-3 sm:ml-4 space-y-1">
                           <li>1st-10th: 10-1 pts</li>
                           <li>Finals Best Speaker: 10 pts</li>
                           <li>Overall Best Speaker: 10 pts</li>
